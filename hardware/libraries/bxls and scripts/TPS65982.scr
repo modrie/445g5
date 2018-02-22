@@ -1,0 +1,789 @@
+# Created by Ultra Librarian Lite 8.2.139 Copyright © 1999-2017
+# Ultra Librarian Free Reader, Accelerated-Designs Inc.
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'ZQZ0096A.pac';
+Layer 1;
+Smd 'A1' 10.8268 10.8268 -100 R0 (-98.4252 98.4252);
+Layer 1;
+Smd 'A2' 10.8268 10.8268 -100 R0 (-78.7402 98.4252);
+Layer 1;
+Smd 'A3' 10.8268 10.8268 -100 R0 (-59.0551 98.4252);
+Layer 1;
+Smd 'A4' 10.8268 10.8268 -100 R0 (-39.3701 98.4252);
+Layer 1;
+Smd 'A5' 10.8268 10.8268 -100 R0 (-19.685 98.4252);
+Layer 1;
+Smd 'A6' 10.8268 10.8268 -100 R0 (0 98.4252);
+Layer 1;
+Smd 'A7' 10.8268 10.8268 -100 R0 (19.685 98.4252);
+Layer 1;
+Smd 'A8' 10.8268 10.8268 -100 R0 (39.3701 98.4252);
+Layer 1;
+Smd 'A9' 10.8268 10.8268 -100 R0 (59.0551 98.4252);
+Layer 1;
+Smd 'A10' 10.8268 10.8268 -100 R0 (78.7402 98.4252);
+Layer 1;
+Smd 'A11' 10.8268 10.8268 -100 R0 (98.4252 98.4252);
+Layer 1;
+Smd 'B1' 10.8268 10.8268 -100 R0 (-98.4252 78.7402);
+Layer 1;
+Smd 'B2' 10.8268 10.8268 -100 R0 (-78.7402 78.7402);
+Layer 1;
+Smd 'B3' 10.8268 10.8268 -100 R0 (-59.0551 78.7402);
+Layer 1;
+Smd 'B4' 10.8268 10.8268 -100 R0 (-39.3701 78.7402);
+Layer 1;
+Smd 'B5' 10.8268 10.8268 -100 R0 (-19.685 78.7402);
+Layer 1;
+Smd 'B6' 10.8268 10.8268 -100 R0 (0 78.7402);
+Layer 1;
+Smd 'B7' 10.8268 10.8268 -100 R0 (19.685 78.7402);
+Layer 1;
+Smd 'B8' 10.8268 10.8268 -100 R0 (39.3701 78.7402);
+Layer 1;
+Smd 'B9' 10.8268 10.8268 -100 R0 (59.0551 78.7402);
+Layer 1;
+Smd 'B10' 10.8268 10.8268 -100 R0 (78.7402 78.7402);
+Layer 1;
+Smd 'B11' 10.8268 10.8268 -100 R0 (98.4252 78.7402);
+Layer 1;
+Smd 'C1' 10.8268 10.8268 -100 R0 (-98.4252 59.0551);
+Layer 1;
+Smd 'C2' 10.8268 10.8268 -100 R0 (-78.7402 59.0551);
+Layer 1;
+Smd 'C10' 10.8268 10.8268 -100 R0 (78.7402 59.0551);
+Layer 1;
+Smd 'C11' 10.8268 10.8268 -100 R0 (98.4252 59.0551);
+Layer 1;
+Smd 'D1' 10.8268 10.8268 -100 R0 (-98.4252 39.3701);
+Layer 1;
+Smd 'D2' 10.8268 10.8268 -100 R0 (-78.7402 39.3701);
+Layer 1;
+Smd 'D5' 10.8268 10.8268 -100 R0 (-19.685 39.3701);
+Layer 1;
+Smd 'D6' 10.8268 10.8268 -100 R0 (0 39.3701);
+Layer 1;
+Smd 'D7' 10.8268 10.8268 -100 R0 (19.685 39.3701);
+Layer 1;
+Smd 'D8' 10.8268 10.8268 -100 R0 (39.3701 39.3701);
+Layer 1;
+Smd 'D10' 10.8268 10.8268 -100 R0 (78.7402 39.3701);
+Layer 1;
+Smd 'D11' 10.8268 10.8268 -100 R0 (98.4252 39.3701);
+Layer 1;
+Smd 'E1' 10.8268 10.8268 -100 R0 (-98.4252 19.685);
+Layer 1;
+Smd 'E2' 10.8268 10.8268 -100 R0 (-78.7402 19.685);
+Layer 1;
+Smd 'E4' 10.8268 10.8268 -100 R0 (-39.3701 19.685);
+Layer 1;
+Smd 'E5' 10.8268 10.8268 -100 R0 (-19.685 19.685);
+Layer 1;
+Smd 'E6' 10.8268 10.8268 -100 R0 (0 19.685);
+Layer 1;
+Smd 'E7' 10.8268 10.8268 -100 R0 (19.685 19.685);
+Layer 1;
+Smd 'E8' 10.8268 10.8268 -100 R0 (39.3701 19.685);
+Layer 1;
+Smd 'E10' 10.8268 10.8268 -100 R0 (78.7402 19.685);
+Layer 1;
+Smd 'E11' 10.8268 10.8268 -100 R0 (98.4252 19.685);
+Layer 1;
+Smd 'F1' 10.8268 10.8268 -100 R0 (-98.4252 0);
+Layer 1;
+Smd 'F2' 10.8268 10.8268 -100 R0 (-78.7402 0);
+Layer 1;
+Smd 'F4' 10.8268 10.8268 -100 R0 (-39.3701 0);
+Layer 1;
+Smd 'F5' 10.8268 10.8268 -100 R0 (-19.685 0);
+Layer 1;
+Smd 'F6' 10.8268 10.8268 -100 R0 (0 0);
+Layer 1;
+Smd 'F7' 10.8268 10.8268 -100 R0 (19.685 0);
+Layer 1;
+Smd 'F8' 10.8268 10.8268 -100 R0 (39.3701 0);
+Layer 1;
+Smd 'F10' 10.8268 10.8268 -100 R0 (78.7402 0);
+Layer 1;
+Smd 'F11' 10.8268 10.8268 -100 R0 (98.4252 0);
+Layer 1;
+Smd 'G1' 10.8268 10.8268 -100 R0 (-98.4252 -19.685);
+Layer 1;
+Smd 'G2' 10.8268 10.8268 -100 R0 (-78.7402 -19.685);
+Layer 1;
+Smd 'G4' 10.8268 10.8268 -100 R0 (-39.3701 -19.685);
+Layer 1;
+Smd 'G5' 10.8268 10.8268 -100 R0 (-19.685 -19.685);
+Layer 1;
+Smd 'G6' 10.8268 10.8268 -100 R0 (0 -19.685);
+Layer 1;
+Smd 'G7' 10.8268 10.8268 -100 R0 (19.685 -19.685);
+Layer 1;
+Smd 'G8' 10.8268 10.8268 -100 R0 (39.3701 -19.685);
+Layer 1;
+Smd 'G10' 10.8268 10.8268 -100 R0 (78.7402 -19.685);
+Layer 1;
+Smd 'G11' 10.8268 10.8268 -100 R0 (98.4252 -19.685);
+Layer 1;
+Smd 'H1' 10.8268 10.8268 -100 R0 (-98.4252 -39.3701);
+Layer 1;
+Smd 'H2' 10.8268 10.8268 -100 R0 (-78.7402 -39.3701);
+Layer 1;
+Smd 'H4' 10.8268 10.8268 -100 R0 (-39.3701 -39.3701);
+Layer 1;
+Smd 'H5' 10.8268 10.8268 -100 R0 (-19.685 -39.3701);
+Layer 1;
+Smd 'H6' 10.8268 10.8268 -100 R0 (0 -39.3701);
+Layer 1;
+Smd 'H7' 10.8268 10.8268 -100 R0 (19.685 -39.3701);
+Layer 1;
+Smd 'H8' 10.8268 10.8268 -100 R0 (39.3701 -39.3701);
+Layer 1;
+Smd 'H10' 10.8268 10.8268 -100 R0 (78.7402 -39.3701);
+Layer 1;
+Smd 'H11' 10.8268 10.8268 -100 R0 (98.4252 -39.3701);
+Layer 1;
+Smd 'J1' 10.8268 10.8268 -100 R0 (-98.4252 -59.0551);
+Layer 1;
+Smd 'J2' 10.8268 10.8268 -100 R0 (-78.7402 -59.0551);
+Layer 1;
+Smd 'J10' 10.8268 10.8268 -100 R0 (78.7402 -59.0551);
+Layer 1;
+Smd 'J11' 10.8268 10.8268 -100 R0 (98.4252 -59.0551);
+Layer 1;
+Smd 'K1' 10.8268 10.8268 -100 R0 (-98.4252 -78.7402);
+Layer 1;
+Smd 'K2' 10.8268 10.8268 -100 R0 (-78.7402 -78.7402);
+Layer 1;
+Smd 'K3' 10.8268 10.8268 -100 R0 (-59.0551 -78.7402);
+Layer 1;
+Smd 'K4' 10.8268 10.8268 -100 R0 (-39.3701 -78.7402);
+Layer 1;
+Smd 'K5' 10.8268 10.8268 -100 R0 (-19.685 -78.7402);
+Layer 1;
+Smd 'K6' 10.8268 10.8268 -100 R0 (0 -78.7402);
+Layer 1;
+Smd 'K7' 10.8268 10.8268 -100 R0 (19.685 -78.7402);
+Layer 1;
+Smd 'K8' 10.8268 10.8268 -100 R0 (39.3701 -78.7402);
+Layer 1;
+Smd 'K9' 10.8268 10.8268 -100 R0 (59.0551 -78.7402);
+Layer 1;
+Smd 'K10' 10.8268 10.8268 -100 R0 (78.7402 -78.7402);
+Layer 1;
+Smd 'K11' 10.8268 10.8268 -100 R0 (98.4252 -78.7402);
+Layer 1;
+Smd 'L1' 10.8268 10.8268 -100 R0 (-98.4252 -98.4252);
+Layer 1;
+Smd 'L2' 10.8268 10.8268 -100 R0 (-78.7402 -98.4252);
+Layer 1;
+Smd 'L3' 10.8268 10.8268 -100 R0 (-59.0551 -98.4252);
+Layer 1;
+Smd 'L4' 10.8268 10.8268 -100 R0 (-39.3701 -98.4252);
+Layer 1;
+Smd 'L5' 10.8268 10.8268 -100 R0 (-19.685 -98.4252);
+Layer 1;
+Smd 'L6' 10.8268 10.8268 -100 R0 (0 -98.4252);
+Layer 1;
+Smd 'L7' 10.8268 10.8268 -100 R0 (19.685 -98.4252);
+Layer 1;
+Smd 'L8' 10.8268 10.8268 -100 R0 (39.3701 -98.4252);
+Layer 1;
+Smd 'L9' 10.8268 10.8268 -100 R0 (59.0551 -98.4252);
+Layer 1;
+Smd 'L10' 10.8268 10.8268 -100 R0 (78.7402 -98.4252);
+Layer 1;
+Smd 'L11' 10.8268 10.8268 -100 R0 (98.4252 -98.4252);
+Layer 21;
+Wire 8 (-118 79) (-118 108);
+Wire 8 (-108 118) (-79 118);
+Wire 8 (-118 -118) (-118 -98);
+Wire 8 (-118 -118) (-98 -118);
+Wire 8 (118 -118) (118 -98);
+Wire 8 (98 -118) (118 -118);
+Wire 8 (98 118) (118 118);
+Wire 8 (-118 108) (-108 118);
+Wire 8 (118 98) (118 118);
+Change Size 50;
+Change Ratio 6;
+Text 'Designator9' SR0 (-115 137);
+Layer 51;
+Wire 6 (-120 -120) (120 -120);
+Wire 6 (-120 120) (120 120);
+Wire 6 (120 -120) (120 120);
+Wire 6 (-120 -120) (-120 120);
+Wire 4 (-87 98) -180 (-110 98);
+Wire 4 (-110 98) -180 (-87 98);
+Change Size 50;
+Change Ratio 6;
+Text '.Designator' SR0 (-63 -33);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'ZQZ0096A_Oval.pac';
+Layer 1;
+Smd 'A1' 10.8268 10.8268 -100 R0 (-98.4252 98.4252);
+Layer 1;
+Smd 'A2' 5.9842 7.0079 -100 R90 (-78.7402 98.4252);
+Layer 1;
+Smd 'A3' 5.9842 7.0079 -100 R90 (-59.0551 98.4252);
+Layer 1;
+Smd 'A4' 5.9842 7.0079 -100 R90 (-39.3701 98.4252);
+Layer 1;
+Smd 'A5' 5.9842 7.0079 -100 R90 (-19.685 98.4252);
+Layer 1;
+Smd 'A6' 5.9842 7.0079 -100 R90 (0 98.4252);
+Layer 1;
+Smd 'A7' 5.9842 7.0079 -100 R90 (19.685 98.4252);
+Layer 1;
+Smd 'A8' 5.9842 7.0079 -100 R90 (39.3701 98.4252);
+Layer 1;
+Smd 'A9' 5.9842 7.0079 -100 R90 (59.0551 98.4252);
+Layer 1;
+Smd 'A10' 5.9842 7.0079 -100 R90 (78.7402 98.4252);
+Layer 1;
+Smd 'A11' 10.8268 10.8268 -100 R0 (98.4252 98.4252);
+Layer 1;
+Smd 'B1' 5.9842 7.0079 -100 R180 (-98.4252 78.7402);
+Layer 1;
+Smd 'B2' 10.8268 10.8268 -100 R0 (-78.7402 78.7402);
+Layer 1;
+Smd 'B3' 10.8268 10.8268 -100 R0 (-59.0551 78.7402);
+Layer 1;
+Smd 'B4' 10.8268 10.8268 -100 R0 (-39.3701 78.7402);
+Layer 1;
+Smd 'B5' 10.8268 10.8268 -100 R0 (-19.685 78.7402);
+Layer 1;
+Smd 'B6' 10.8268 10.8268 -100 R0 (0 78.7402);
+Layer 1;
+Smd 'B7' 10.8268 10.8268 -100 R0 (19.685 78.7402);
+Layer 1;
+Smd 'B8' 10.8268 10.8268 -100 R0 (39.3701 78.7402);
+Layer 1;
+Smd 'B9' 10.8268 10.8268 -100 R0 (59.0551 78.7402);
+Layer 1;
+Smd 'B10' 10.8268 10.8268 -100 R0 (78.7402 78.7402);
+Layer 1;
+Smd 'B11' 5.9842 7.0079 -100 R180 (98.4252 78.7402);
+Layer 1;
+Smd 'C1' 5.9842 7.0079 -100 R180 (-98.4252 59.0551);
+Layer 1;
+Smd 'C2' 10.8268 10.8268 -100 R0 (-78.7402 59.0551);
+Layer 1;
+Smd 'C10' 10.8268 10.8268 -100 R0 (78.7402 59.0551);
+Layer 1;
+Smd 'C11' 5.9842 7.0079 -100 R180 (98.4252 59.0551);
+Layer 1;
+Smd 'D1' 5.9842 7.0079 -100 R180 (-98.4252 39.3701);
+Layer 1;
+Smd 'D2' 10.8268 10.8268 -100 R0 (-78.7402 39.3701);
+Layer 1;
+Smd 'D5' 10.8268 10.8268 -100 R0 (-19.685 39.3701);
+Layer 1;
+Smd 'D6' 10.8268 10.8268 -100 R0 (0 39.3701);
+Layer 1;
+Smd 'D7' 10.8268 10.8268 -100 R0 (19.685 39.3701);
+Layer 1;
+Smd 'D8' 10.8268 10.8268 -100 R0 (39.3701 39.3701);
+Layer 1;
+Smd 'D10' 10.8268 10.8268 -100 R0 (78.7402 39.3701);
+Layer 1;
+Smd 'D11' 5.9842 7.0079 -100 R180 (98.4252 39.3701);
+Layer 1;
+Smd 'E1' 5.9842 7.0079 -100 R180 (-98.4252 19.685);
+Layer 1;
+Smd 'E2' 10.8268 10.8268 -100 R0 (-78.7402 19.685);
+Layer 1;
+Smd 'E4' 10.8268 10.8268 -100 R0 (-39.3701 19.685);
+Layer 1;
+Smd 'E5' 10.8268 10.8268 -100 R0 (-19.685 19.685);
+Layer 1;
+Smd 'E6' 10.8268 10.8268 -100 R0 (0 19.685);
+Layer 1;
+Smd 'E7' 10.8268 10.8268 -100 R0 (19.685 19.685);
+Layer 1;
+Smd 'E8' 10.8268 10.8268 -100 R0 (39.3701 19.685);
+Layer 1;
+Smd 'E10' 10.8268 10.8268 -100 R0 (78.7402 19.685);
+Layer 1;
+Smd 'E11' 5.9842 7.0079 -100 R180 (98.4252 19.685);
+Layer 1;
+Smd 'F1' 5.9842 7.0079 -100 R180 (-98.4252 0);
+Layer 1;
+Smd 'F2' 10.8268 10.8268 -100 R0 (-78.7402 0);
+Layer 1;
+Smd 'F4' 10.8268 10.8268 -100 R0 (-39.3701 0);
+Layer 1;
+Smd 'F5' 10.8268 10.8268 -100 R0 (-19.685 0);
+Layer 1;
+Smd 'F6' 10.8268 10.8268 -100 R0 (0 0);
+Layer 1;
+Smd 'F7' 10.8268 10.8268 -100 R0 (19.685 0);
+Layer 1;
+Smd 'F8' 10.8268 10.8268 -100 R0 (39.3701 0);
+Layer 1;
+Smd 'F10' 10.8268 10.8268 -100 R0 (78.7402 0);
+Layer 1;
+Smd 'F11' 5.9842 7.0079 -100 R180 (98.4252 0);
+Layer 1;
+Smd 'G1' 5.9842 7.0079 -100 R180 (-98.4252 -19.685);
+Layer 1;
+Smd 'G2' 10.8268 10.8268 -100 R0 (-78.7402 -19.685);
+Layer 1;
+Smd 'G4' 10.8268 10.8268 -100 R0 (-39.3701 -19.685);
+Layer 1;
+Smd 'G5' 10.8268 10.8268 -100 R0 (-19.685 -19.685);
+Layer 1;
+Smd 'G6' 10.8268 10.8268 -100 R0 (0 -19.685);
+Layer 1;
+Smd 'G7' 10.8268 10.8268 -100 R0 (19.685 -19.685);
+Layer 1;
+Smd 'G8' 10.8268 10.8268 -100 R0 (39.3701 -19.685);
+Layer 1;
+Smd 'G10' 10.8268 10.8268 -100 R0 (78.7402 -19.685);
+Layer 1;
+Smd 'G11' 5.9842 7.0079 -100 R180 (98.4252 -19.685);
+Layer 1;
+Smd 'H1' 5.9842 7.0079 -100 R180 (-98.4252 -39.3701);
+Layer 1;
+Smd 'H2' 10.8268 10.8268 -100 R0 (-78.7402 -39.3701);
+Layer 1;
+Smd 'H4' 10.8268 10.8268 -100 R0 (-39.3701 -39.3701);
+Layer 1;
+Smd 'H5' 10.8268 10.8268 -100 R0 (-19.685 -39.3701);
+Layer 1;
+Smd 'H6' 10.8268 10.8268 -100 R0 (0 -39.3701);
+Layer 1;
+Smd 'H7' 10.8268 10.8268 -100 R0 (19.685 -39.3701);
+Layer 1;
+Smd 'H8' 10.8268 10.8268 -100 R0 (39.3701 -39.3701);
+Layer 1;
+Smd 'H10' 10.8268 10.8268 -100 R0 (78.7402 -39.3701);
+Layer 1;
+Smd 'H11' 5.9842 7.0079 -100 R180 (98.4252 -39.3701);
+Layer 1;
+Smd 'J1' 5.9842 7.0079 -100 R180 (-98.4252 -59.0551);
+Layer 1;
+Smd 'J2' 10.8268 10.8268 -100 R0 (-78.7402 -59.0551);
+Layer 1;
+Smd 'J10' 10.8268 10.8268 -100 R0 (78.7402 -59.0551);
+Layer 1;
+Smd 'J11' 5.9842 7.0079 -100 R180 (98.4252 -59.0551);
+Layer 1;
+Smd 'K1' 5.9842 7.0079 -100 R180 (-98.4252 -78.7402);
+Layer 1;
+Smd 'K2' 10.8268 10.8268 -100 R0 (-78.7402 -78.7402);
+Layer 1;
+Smd 'K3' 10.8268 10.8268 -100 R0 (-59.0551 -78.7402);
+Layer 1;
+Smd 'K4' 10.8268 10.8268 -100 R0 (-39.3701 -78.7402);
+Layer 1;
+Smd 'K5' 10.8268 10.8268 -100 R0 (-19.685 -78.7402);
+Layer 1;
+Smd 'K6' 10.8268 10.8268 -100 R0 (0 -78.7402);
+Layer 1;
+Smd 'K7' 10.8268 10.8268 -100 R0 (19.685 -78.7402);
+Layer 1;
+Smd 'K8' 10.8268 10.8268 -100 R0 (39.3701 -78.7402);
+Layer 1;
+Smd 'K9' 10.8268 10.8268 -100 R0 (59.0551 -78.7402);
+Layer 1;
+Smd 'K10' 10.8268 10.8268 -100 R0 (78.7402 -78.7402);
+Layer 1;
+Smd 'K11' 5.9842 7.0079 -100 R180 (98.4252 -78.7402);
+Layer 1;
+Smd 'L1' 10.8268 10.8268 -100 R0 (-98.4252 -98.4252);
+Layer 1;
+Smd 'L2' 5.9842 7.0079 -100 R90 (-78.7402 -98.4252);
+Layer 1;
+Smd 'L3' 5.9842 7.0079 -100 R90 (-59.0551 -98.4252);
+Layer 1;
+Smd 'L4' 5.9842 7.0079 -100 R90 (-39.3701 -98.4252);
+Layer 1;
+Smd 'L5' 5.9842 7.0079 -100 R90 (-19.685 -98.4252);
+Layer 1;
+Smd 'L6' 5.9842 7.0079 -100 R90 (0 -98.4252);
+Layer 1;
+Smd 'L7' 5.9842 7.0079 -100 R90 (19.685 -98.4252);
+Layer 1;
+Smd 'L8' 5.9842 7.0079 -100 R90 (39.3701 -98.4252);
+Layer 1;
+Smd 'L9' 5.9842 7.0079 -100 R90 (59.0551 -98.4252);
+Layer 1;
+Smd 'L10' 5.9842 7.0079 -100 R90 (78.7402 -98.4252);
+Layer 1;
+Smd 'L11' 10.8268 10.8268 -100 R0 (98.4252 -98.4252);
+Layer 51;
+Wire 6 (-120 -120) (120 -120);
+Wire 6 (-120 120) (120 120);
+Wire 6 (120 -120) (120 120);
+Wire 6 (-120 -120) (-120 120);
+Wire 4 (-87 98) -180 (-110 98);
+Wire 4 (-110 98) -180 (-87 98);
+Change Size 50;
+Change Ratio 6;
+Text '.Designator' SR0 (-63 -33);
+Layer 21;
+Wire 8 (-118 79) (-118 108);
+Wire 8 (-108 118) (-79 118);
+Wire 8 (-118 -118) (-118 -98);
+Wire 8 (-118 -118) (-98 -118);
+Wire 8 (118 -118) (118 -98);
+Wire 8 (98 -118) (118 -118);
+Wire 8 (98 118) (118 118);
+Wire 8 (-118 108) (-108 118);
+Wire 8 (118 98) (118 118);
+Change Size 50;
+Change Ratio 6;
+Text 'Designator9' SR0 (-115 137);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'TPS65982ZQZ_A.sym';
+Layer 94;
+Pin 'SPI_CLK' Out None Middle R0 Both 0 (-1100 -100)
+Pin 'SPI_MISO' In None Middle R0 Both 0 (-1100 100)
+Pin 'I2C_SDA2' I/O None Middle R0 Both 0 (-1100 500)
+Pin 'HV_GATE2' Out None Middle R180 Both 0 (1100 400)
+Pin 'SENSEN' In None Middle R180 Both 0 (1100 800)
+Pin 'GPIO0' I/O None Middle R0 Both 0 (-1100 2000)
+Pin 'SPI_SSZ' Out None Middle R0 Both 0 (-1100 0)
+Pin 'SPI_MOSI' Out None Middle R0 Both 0 (-1100 200)
+Pin 'I2C_SCL2' I/O None Middle R0 Both 0 (-1100 600)
+Pin 'I2C_IRQ2Z' OC None Middle R0 Both 0 (-1100 400)
+Pin 'HV_GATE1' Out None Middle R180 Both 0 (1100 600)
+Pin 'SENSEP' In None Middle R180 Both 0 (1100 1000)
+Pin 'I2C_IRQ1Z' OC None Middle R0 Both 0 (-1100 800)
+Pin 'GPIO1' I/O None Middle R0 Both 0 (-1100 1900)
+Pin 'GPIO4_HPD' I/O None Middle R0 Both 0 (-1100 1600)
+Pin 'I2C_SDA1' I/O None Middle R0 Both 0 (-1100 900)
+Pin 'I2C_SCL1' I/O None Middle R0 Both 0 (-1100 1000)
+Pin 'DEBUG_CTL2' I/O None Middle R0 Both 0 (-1100 -700)
+Pin 'RESET' I/O None Middle R180 Both 0 (1100 200)
+Pin 'GPIO7' I/O None Middle R0 Both 0 (-1100 1300)
+Pin 'GPIO2' I/O None Middle R0 Both 0 (-1100 1800)
+Pin 'UART_TX' Out None Middle R0 Both 0 (-1100 -1000)
+Pin 'DEBUG_CTL1' I/O None Middle R0 Both 0 (-1100 -600)
+Pin 'GPIO5_HPD' I/O None Middle R0 Both 0 (-1100 1500)
+Pin 'MRESET' I/O None Middle R180 Both 0 (1100 -200)
+Pin 'I2C_ADDR' I/O None Middle R0 Both 0 (-1100 2200)
+Pin 'UART_RX' In None Middle R0 Both 0 (-1100 -900)
+Pin 'SWD_DATA' I/O None Middle R0 Both 0 (-1100 -300)
+Pin 'RESET_N' I/O None Middle R180 Both 0 (1100 0)
+Pin 'R_OSC' I/O None Middle R0 Both 0 (-1100 2400)
+Pin 'SWD_CLK' In None Middle R0 Both 0 (-1100 -400)
+Pin 'GPIO6' I/O None Middle R0 Both 0 (-1100 1400)
+Pin 'GPIO3' I/O None Middle R0 Both 0 (-1100 1700)
+Pin 'GPIO8' I/O None Middle R0 Both 0 (-1100 1200)
+Pin 'SS' In None Middle R180 Both 0 (1100 -2300)
+Pin 'AUX_P' I/O None Middle R0 Both 0 (-1100 -1500)
+Pin 'AUX_N' I/O None Middle R0 Both 0 (-1100 -1600)
+Pin 'DEBUG2' I/O None Middle R0 Both 0 (-1100 -2200)
+Pin 'DEBUG4' I/O None Middle R0 Both 0 (-1100 -2500)
+Pin 'LSX_P2R' Out None Middle R0 Both 0 (-1100 -1300)
+Pin 'USB_RP_N' I/O None Middle R0 Both 0 (-1100 -1900)
+Pin 'C_USB_TP' I/O None Middle R180 Both 0 (1100 -900)
+Pin 'C_USB_BP' I/O None Middle R180 Both 0 (1100 -1200)
+Pin 'C_SBU1' I/O None Middle R180 Both 0 (1100 -1500)
+Pin 'RPD_G1' I/O None Middle R180 Both 0 (1100 1800)
+Pin 'RPD_G2' I/O None Middle R180 Both 0 (1100 1400)
+Pin 'DEBUG1' I/O None Middle R0 Both 0 (-1100 -2100)
+Pin 'DEBUG3' I/O None Middle R0 Both 0 (-1100 -2400)
+Pin 'LSX_R2P' In None Middle R0 Both 0 (-1100 -1200)
+Pin 'USB_RP_P' I/O None Middle R0 Both 0 (-1100 -1800)
+Pin 'C_USB_TN' I/O None Middle R180 Both 0 (1100 -1000)
+Pin 'C_USB_BN' I/O None Middle R180 Both 0 (1100 -1300)
+Pin 'C_SBU2' I/O None Middle R180 Both 0 (1100 -1600)
+Pin 'C_CC1' I/O None Middle R180 Both 0 (1100 2000)
+Pin 'C_CC2' I/O None Middle R180 Both 0 (1100 1600)
+Pin 'NC' Pas None Middle R180 Both 0 (1100 -2500)
+Wire 8 (-900 -2600) (900 -2600);
+Wire 8 (900 -2600) (900 2600);
+Wire 8 (900 2600) (-900 2600);
+Wire 8 (-900 2600) (-900 -2600);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 59);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'TPS65982ZQZ_B.sym';
+Layer 94;
+Pin 'GND_2' Pwr None Middle R180 Both 0 (1000 400)
+Pin 'LDO_1V8D' Pwr None Middle R0 Both 0 (-1000 -1400)
+Pin 'PP_HV_2' Pwr None Middle R0 Both 0 (-1000 600)
+Pin 'PP_HV_3' Pwr None Middle R0 Both 0 (-1000 700)
+Pin 'PP_HV_4' Pwr None Middle R0 Both 0 (-1000 800)
+Pin 'PP_5V0_2' Pwr None Middle R0 Both 0 (-1000 300)
+Pin 'VDDIO' Pwr None Middle R0 Both 0 (-1000 -400)
+Pin 'PP_HV' Pwr None Middle R0 Both 0 (-1000 500)
+Pin 'GND_3' Pwr None Middle R180 Both 0 (1000 300)
+Pin 'PP_5V0_3' Pwr None Middle R0 Both 0 (-1000 200)
+Pin 'PP_5V0_4' Pwr None Middle R0 Both 0 (-1000 100)
+Pin 'GND_4' Pwr None Middle R180 Both 0 (1000 200)
+Pin 'PP_5V0' Pwr None Middle R0 Both 0 (-1000 0)
+Pin 'LDO_BMC' Pwr None Middle R180 Both 0 (1000 1300)
+Pin 'GND_5' Pwr None Middle R180 Both 0 (1000 100)
+Pin 'GND_6' Pwr None Middle R180 Both 0 (1000 0)
+Pin 'GND_7' Pwr None Middle R180 Both 0 (1000 -100)
+Pin 'GND_8' Pwr None Middle R180 Both 0 (1000 -200)
+Pin 'GND_9' Pwr None Middle R180 Both 0 (1000 -300)
+Pin 'GND_10' Pwr None Middle R180 Both 0 (1000 -400)
+Pin 'GND_11' Pwr None Middle R180 Both 0 (1000 -500)
+Pin 'GND_12' Pwr None Middle R180 Both 0 (1000 -600)
+Pin 'BUSPOWERZ' Pwr None Middle R180 Both 0 (1000 1100)
+Pin 'LDO_3V3' Pwr None Middle R0 Both 0 (-1000 -1000)
+Pin 'GND_13' Pwr None Middle R180 Both 0 (1000 -700)
+Pin 'GND_14' Pwr None Middle R180 Both 0 (1000 -800)
+Pin 'GND_15' Pwr None Middle R180 Both 0 (1000 -900)
+Pin 'GND_16' Pwr None Middle R180 Both 0 (1000 -1000)
+Pin 'VIN_3V3' Pwr None Middle R0 Both 0 (-1000 -600)
+Pin 'VOUT_3V3' Pwr None Middle R0 Both 0 (-1000 -800)
+Pin 'GND_17' Pwr None Middle R180 Both 0 (1000 -1100)
+Pin 'GND_18' Pwr None Middle R180 Both 0 (1000 -1200)
+Pin 'GND_19' Pwr None Middle R180 Both 0 (1000 -1300)
+Pin 'PP_CABLE' Pwr None Middle R0 Both 0 (-1000 -200)
+Pin 'VBUS_2' Pwr None Middle R0 Both 0 (-1000 1300)
+Pin 'VBUS_3' Pwr None Middle R0 Both 0 (-1000 1200)
+Pin 'VBUS_4' Pwr None Middle R0 Both 0 (-1000 1100)
+Pin 'LDO_1V8A' Pwr None Middle R0 Both 0 (-1000 -1200)
+Pin 'VBUS' Pwr None Middle R0 Both 0 (-1000 1000)
+Pin 'GND' Pwr None Middle R180 Both 0 (1000 -1400)
+Wire 8 (-800 -1500) (800 -1500);
+Wire 8 (800 -1500) (800 1500);
+Wire 8 (800 1500) (-800 1500);
+Wire 8 (-800 1500) (-800 -1500);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 59);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'TPS65982ABZQZR.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add TPS65982ZQZ_A 'A' Next  0 (0 0);
+Add TPS65982ZQZ_B 'B' Next  0 (6910 0);
+Package 'ZQZ0096A';
+Technology '';
+Connect 'A.SPI_CLK' 'A3';
+Connect 'A.SPI_MISO' 'A4';
+Connect 'A.I2C_SDA2' 'A5';
+Connect 'A.HV_GATE2' 'A9';
+Connect 'A.SENSEN' 'A10';
+Connect 'A.GPIO0' 'B2';
+Connect 'A.SPI_SSZ' 'B3';
+Connect 'A.SPI_MOSI' 'B4';
+Connect 'A.I2C_SCL2' 'B5';
+Connect 'A.I2C_IRQ2Z' 'B6';
+Connect 'A.HV_GATE1' 'B9';
+Connect 'A.SENSEP' 'B10';
+Connect 'A.I2C_IRQ1Z' 'C1';
+Connect 'A.GPIO1' 'C2';
+Connect 'A.GPIO4_HPD' 'C10';
+Connect 'A.I2C_SDA1' 'D1';
+Connect 'A.I2C_SCL1' 'D2';
+Connect 'A.DEBUG_CTL2' 'D5';
+Connect 'A.RESET' 'D6';
+Connect 'A.GPIO7' 'D7';
+Connect 'A.GPIO2' 'D10';
+Connect 'A.UART_TX' 'E2';
+Connect 'A.DEBUG_CTL1' 'E4';
+Connect 'A.GPIO5_HPD' 'E10';
+Connect 'A.MRESET' 'E11';
+Connect 'A.I2C_ADDR' 'F1';
+Connect 'A.UART_RX' 'F2';
+Connect 'A.SWD_DATA' 'F4';
+Connect 'A.RESET_N' 'F11';
+Connect 'A.R_OSC' 'G2';
+Connect 'A.SWD_CLK' 'G4';
+Connect 'A.GPIO6' 'G10';
+Connect 'A.GPIO3' 'G11';
+Connect 'A.GPIO8' 'H6';
+Connect 'A.SS' 'H7';
+Connect 'A.AUX_P' 'J1';
+Connect 'A.AUX_N' 'J2';
+Connect 'A.DEBUG2' 'K2';
+Connect 'A.DEBUG4' 'K3';
+Connect 'A.LSX_P2R' 'K4';
+Connect 'A.USB_RP_N' 'K5';
+Connect 'A.C_USB_TP' 'K6';
+Connect 'A.C_USB_BP' 'K7';
+Connect 'A.C_SBU1' 'K8';
+Connect 'A.RPD_G1' 'K9';
+Connect 'A.RPD_G2' 'K10';
+Connect 'A.DEBUG1' 'L2';
+Connect 'A.DEBUG3' 'L3';
+Connect 'A.LSX_R2P' 'L4';
+Connect 'A.USB_RP_P' 'L5';
+Connect 'A.C_USB_TN' 'L6';
+Connect 'A.C_USB_BN' 'L7';
+Connect 'A.C_SBU2' 'L8';
+Connect 'A.C_CC1' 'L9';
+Connect 'A.C_CC2' 'L10';
+Connect 'A.NC' 'L11';
+Connect 'B.GND_2' 'A1';
+Connect 'B.LDO_1V8D' 'A2';
+Connect 'B.PP_HV_2' 'A6';
+Connect 'B.PP_HV_3' 'A7';
+Connect 'B.PP_HV_4' 'A8';
+Connect 'B.PP_5V0_2' 'A11';
+Connect 'B.VDDIO' 'B1';
+Connect 'B.PP_HV' 'B7';
+Connect 'B.GND_3' 'B8';
+Connect 'B.PP_5V0_3' 'B11';
+Connect 'B.PP_5V0_4' 'C11';
+Connect 'B.GND_4' 'D8';
+Connect 'B.PP_5V0' 'D11';
+Connect 'B.LDO_BMC' 'E1';
+Connect 'B.GND_5' 'E5';
+Connect 'B.GND_6' 'E6';
+Connect 'B.GND_7' 'E7';
+Connect 'B.GND_8' 'E8';
+Connect 'B.GND_9' 'F5';
+Connect 'B.GND_10' 'F6';
+Connect 'B.GND_11' 'F7';
+Connect 'B.GND_12' 'F8';
+Connect 'B.BUSPOWERZ' 'F10';
+Connect 'B.LDO_3V3' 'G1';
+Connect 'B.GND_13' 'G5';
+Connect 'B.GND_14' 'G6';
+Connect 'B.GND_15' 'G7';
+Connect 'B.GND_16' 'G8';
+Connect 'B.VIN_3V3' 'H1';
+Connect 'B.VOUT_3V3' 'H2';
+Connect 'B.GND_17' 'H4';
+Connect 'B.GND_18' 'H5';
+Connect 'B.GND_19' 'H8';
+Connect 'B.PP_CABLE' 'H10';
+Connect 'B.VBUS_2' 'H11';
+Connect 'B.VBUS_3' 'J10';
+Connect 'B.VBUS_4' 'J11';
+Connect 'B.LDO_1V8A' 'K1';
+Connect 'B.VBUS' 'K11';
+Connect 'B.GND' 'L1';
+Package 'ZQZ0096A_Oval' 'ZQZ0096A_Oval';
+Technology '';
+Connect 'A.SPI_CLK' 'A3';
+Connect 'A.SPI_MISO' 'A4';
+Connect 'A.I2C_SDA2' 'A5';
+Connect 'A.HV_GATE2' 'A9';
+Connect 'A.SENSEN' 'A10';
+Connect 'A.GPIO0' 'B2';
+Connect 'A.SPI_SSZ' 'B3';
+Connect 'A.SPI_MOSI' 'B4';
+Connect 'A.I2C_SCL2' 'B5';
+Connect 'A.I2C_IRQ2Z' 'B6';
+Connect 'A.HV_GATE1' 'B9';
+Connect 'A.SENSEP' 'B10';
+Connect 'A.I2C_IRQ1Z' 'C1';
+Connect 'A.GPIO1' 'C2';
+Connect 'A.GPIO4_HPD' 'C10';
+Connect 'A.I2C_SDA1' 'D1';
+Connect 'A.I2C_SCL1' 'D2';
+Connect 'A.DEBUG_CTL2' 'D5';
+Connect 'A.RESET' 'D6';
+Connect 'A.GPIO7' 'D7';
+Connect 'A.GPIO2' 'D10';
+Connect 'A.UART_TX' 'E2';
+Connect 'A.DEBUG_CTL1' 'E4';
+Connect 'A.GPIO5_HPD' 'E10';
+Connect 'A.MRESET' 'E11';
+Connect 'A.I2C_ADDR' 'F1';
+Connect 'A.UART_RX' 'F2';
+Connect 'A.SWD_DATA' 'F4';
+Connect 'A.RESET_N' 'F11';
+Connect 'A.R_OSC' 'G2';
+Connect 'A.SWD_CLK' 'G4';
+Connect 'A.GPIO6' 'G10';
+Connect 'A.GPIO3' 'G11';
+Connect 'A.GPIO8' 'H6';
+Connect 'A.SS' 'H7';
+Connect 'A.AUX_P' 'J1';
+Connect 'A.AUX_N' 'J2';
+Connect 'A.DEBUG2' 'K2';
+Connect 'A.DEBUG4' 'K3';
+Connect 'A.LSX_P2R' 'K4';
+Connect 'A.USB_RP_N' 'K5';
+Connect 'A.C_USB_TP' 'K6';
+Connect 'A.C_USB_BP' 'K7';
+Connect 'A.C_SBU1' 'K8';
+Connect 'A.RPD_G1' 'K9';
+Connect 'A.RPD_G2' 'K10';
+Connect 'A.DEBUG1' 'L2';
+Connect 'A.DEBUG3' 'L3';
+Connect 'A.LSX_R2P' 'L4';
+Connect 'A.USB_RP_P' 'L5';
+Connect 'A.C_USB_TN' 'L6';
+Connect 'A.C_USB_BN' 'L7';
+Connect 'A.C_SBU2' 'L8';
+Connect 'A.C_CC1' 'L9';
+Connect 'A.C_CC2' 'L10';
+Connect 'A.NC' 'L11';
+Connect 'B.GND_2' 'A1';
+Connect 'B.LDO_1V8D' 'A2';
+Connect 'B.PP_HV_2' 'A6';
+Connect 'B.PP_HV_3' 'A7';
+Connect 'B.PP_HV_4' 'A8';
+Connect 'B.PP_5V0_2' 'A11';
+Connect 'B.VDDIO' 'B1';
+Connect 'B.PP_HV' 'B7';
+Connect 'B.GND_3' 'B8';
+Connect 'B.PP_5V0_3' 'B11';
+Connect 'B.PP_5V0_4' 'C11';
+Connect 'B.GND_4' 'D8';
+Connect 'B.PP_5V0' 'D11';
+Connect 'B.LDO_BMC' 'E1';
+Connect 'B.GND_5' 'E5';
+Connect 'B.GND_6' 'E6';
+Connect 'B.GND_7' 'E7';
+Connect 'B.GND_8' 'E8';
+Connect 'B.GND_9' 'F5';
+Connect 'B.GND_10' 'F6';
+Connect 'B.GND_11' 'F7';
+Connect 'B.GND_12' 'F8';
+Connect 'B.BUSPOWERZ' 'F10';
+Connect 'B.LDO_3V3' 'G1';
+Connect 'B.GND_13' 'G5';
+Connect 'B.GND_14' 'G6';
+Connect 'B.GND_15' 'G7';
+Connect 'B.GND_16' 'G8';
+Connect 'B.VIN_3V3' 'H1';
+Connect 'B.VOUT_3V3' 'H2';
+Connect 'B.GND_17' 'H4';
+Connect 'B.GND_18' 'H5';
+Connect 'B.GND_19' 'H8';
+Connect 'B.PP_CABLE' 'H10';
+Connect 'B.VBUS_2' 'H11';
+Connect 'B.VBUS_3' 'J10';
+Connect 'B.VBUS_4' 'J11';
+Connect 'B.LDO_1V8A' 'K1';
+Connect 'B.VBUS' 'K11';
+Connect 'B.GND' 'L1';

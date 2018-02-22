@@ -1,0 +1,302 @@
+# Library script
+# 
+# Exported from E:/Users/chris/Downloads/12401610E4_2A.lbr at 2/19/2018 1:29 AM
+# 
+# EAGLE Version 8.6.0 Copyright (c) 1988-2018 Autodesk, Inc.
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  90 Modules;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Layer  97 Info;
+Layer  98 Guide;
+Description '';
+
+Edit '12401610E4#2A.sym';
+Layer 94;
+Change Style continuous;
+Wire  0.254 (-12.7 15.24) (-12.7 -17.78) (12.7 -17.78) (12.7 15.24) \
+      (-12.7 15.24);
+Layer 95;
+Change Size 1.7831;
+Change Ratio 8;
+Change Align bottom left;
+Change Font proportional;
+Text '>NAME' R0 (-12.7365 15.7932);
+Layer 96;
+Change Size 1.783990625;
+Change Align bottom left;
+Text '>VALUE' R0 (-12.7428 -20.3885);
+Pin 'GND' pas none short R0 both 0 (-15.24 12.7);
+Pin 'TX1+' pas none short R0 both 0 (-15.24 10.16);
+Pin 'TX1-' pas none short R0 both 0 (-15.24 7.62);
+Pin 'VBUS' pas none short R0 both 0 (-15.24 5.08);
+Pin 'CC1' pas none short R0 both 0 (-15.24 2.54);
+Pin 'D+' pas none short R0 both 0 (-15.24 0);
+Pin 'D-' pas none short R0 both 0 (-15.24 -2.54);
+Pin 'SBU1' pas none short R0 both 0 (-15.24 -5.08);
+Pin 'VBUS@1' pas none short R0 both 0 (-15.24 -7.62);
+Pin 'RX2-' pas none short R0 both 0 (-15.24 -10.16);
+Pin 'RX2+' pas none short R0 both 0 (-15.24 -12.7);
+Pin 'GND@1' pas none short R0 both 0 (-15.24 -15.24);
+Pin 'GND@2' pas none short R180 both 0 (15.24 -15.24);
+Pin 'TX2+' pas none short R180 both 0 (15.24 -12.7);
+Pin 'TX2-' pas none short R180 both 0 (15.24 -10.16);
+Pin 'VBUS@2' pas none short R180 both 0 (15.24 -7.62);
+Pin 'CC2' pas none short R180 both 0 (15.24 -5.08);
+Pin 'D+@1' pas none short R180 both 0 (15.24 -2.54);
+Pin 'D-@1' pas none short R180 both 0 (15.24 0);
+Pin 'SBU2' pas none short R180 both 0 (15.24 2.54);
+Pin 'VBUS@3' pas none short R180 both 0 (15.24 5.08);
+Pin 'RX1-' pas none short R180 both 0 (15.24 7.62);
+Pin 'RX1+' pas none short R180 both 0 (15.24 10.16);
+Pin 'GND@3' pas none short R180 both 0 (15.24 12.7);
+
+Edit 'AMPHENOL_12401610E4#2A.pac';
+Description '';
+Layer 46;
+Wire  0 (3.125 0.325) (3.125 -0.325) (4.075 -0.325) (4.075 0.325) \
+      (3.125 0.325);
+Layer 51;
+Wire  0.127 (-4.6 0.91) (4.6 0.91);
+Wire  0.127 (4.6 -9.59) (-4.6 -9.59);
+Wire  0.127 (4.6 0.91) (4.6 -9.59);
+Layer 21;
+Wire  0.127 (4.6 -9.59) (-4.6 -9.59);
+Layer 51;
+Wire  0.127 (-4.6 -9.59) (-4.6 0.91);
+Layer 39;
+Wire  0.05 (-5 1.25) (-5 -10) (5 -10) (5 1.25) \
+      (-5 1.25);
+Layer 21;
+Circle 0 (-2.75 1.5) (-2.5 1.5);
+Layer 25;
+Change Size 1.78048125;
+Change Align bottom left;
+Text '>NAME' R0 (-4.656490625 2.10293125);
+Layer 27;
+Change Size 1.784240625;
+Change Align bottom left;
+Text '>VALUE' R0 (-5.01753125 -12.0421);
+Layer 46;
+Wire  0.001 (-4.38 -0.95) -90 (-4.13 -0.7) -90 (-3.88 -0.95) (-3.88 -1.55) -90 \
+      (-4.13 -1.8) -90 (-4.38 -1.55) (-4.38 -0.95);
+Layer 1;
+Wire  0.15 (-4.455 -0.95) -90 (-4.13 -0.625) -90 (-3.805 -0.95) (-3.805 -1.55) -90 \
+      (-4.13 -1.875) -90 (-4.455 -1.55) (-4.455 -0.95);
+Layer 16;
+Wire  0.15 (-4.455 -0.95) -90 (-4.13 -0.625) -90 (-3.805 -0.95) (-3.805 -1.55) -90 \
+      (-4.13 -1.875) -90 (-4.455 -1.55) (-4.455 -0.95);
+Layer 31;
+Wire  0.15 (-4.455 -0.95) -90 (-4.13 -0.625) -90 (-3.805 -0.95) (-3.805 -1.55) -90 \
+      (-4.13 -1.875) -90 (-4.455 -1.55) (-4.455 -0.95);
+Layer 32;
+Wire  0.15 (-4.455 -0.95) -90 (-4.13 -0.625) -90 (-3.805 -0.95) (-3.805 -1.55) -90 \
+      (-4.13 -1.875) -90 (-4.455 -1.55) (-4.455 -0.95);
+Layer 29;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0.015  (-4.12 -0.5) -90 (-3.68 -0.96) (-3.68 -1.56) -90 (-4.13 -2.01) -90 \
+      (-4.58 -1.56) (-4.58 -0.96) -90 (-4.12 -0.5);
+Layer 30;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0.015  (-4.12 -0.5) -90 (-3.68 -0.96) (-3.68 -1.56) -90 (-4.13 -2.01) -90 \
+      (-4.58 -1.56) (-4.58 -0.96) -90 (-4.12 -0.5);
+Layer 46;
+Wire  0.001 (3.88 -0.95) -90 \
+      (4.13 -0.7) -90 (4.38 -0.95) (4.38 -1.55) -90 (4.13 -1.8) -90 \
+      (3.88 -1.55) (3.88 -0.95);
+Layer 1;
+Wire  0.15 (3.805 -0.95) -90 (4.13 -0.625) -90 (4.455 -0.95) (4.455 -1.55) -90 \
+      (4.13 -1.875) -90 (3.805 -1.55) (3.805 -0.95);
+Layer 16;
+Wire  0.15 (3.805 -0.95) -90 (4.13 -0.625) -90 (4.455 -0.95) (4.455 -1.55) -90 \
+      (4.13 -1.875) -90 (3.805 -1.55) (3.805 -0.95);
+Layer 31;
+Wire  0.15 (3.805 -0.95) -90 (4.13 -0.625) -90 (4.455 -0.95) (4.455 -1.55) -90 \
+      (4.13 -1.875) -90 (3.805 -1.55) (3.805 -0.95);
+Layer 32;
+Wire  0.15 (3.805 -0.95) -90 (4.13 -0.625) -90 (4.455 -0.95) (4.455 -1.55) -90 \
+      (4.13 -1.875) -90 (3.805 -1.55) (3.805 -0.95);
+Layer 29;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0.015  (4.14 -0.5) -90 (4.58 -0.96) (4.58 -1.56) -90 (4.13 -2.01) -90 \
+      (3.68 -1.56) (3.68 -0.96) -90 (4.14 -0.5);
+Layer 30;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0.015  (4.14 -0.5) -90 (4.58 -0.96) (4.58 -1.56) -90 (4.13 -2.01) -90 \
+      (3.68 -1.56) (3.68 -0.96) -90 (4.14 -0.5);
+Layer 46;
+Wire  0.001 (-4.74 -6.9) -90 \
+      (-4.49 -6.65) -90 (-4.24 -6.9) (-4.24 -7.5) -90 (-4.49 -7.75) -90 \
+      (-4.74 -7.5) (-4.74 -6.9);
+Layer 1;
+Wire  0.15 (-4.815 -6.9) -90 (-4.49 -6.575) -90 (-4.165 -6.9) (-4.165 -7.5) -90 \
+      (-4.49 -7.825) -90 (-4.815 -7.5) (-4.815 -6.9);
+Layer 16;
+Wire  0.15 (-4.815 -6.9) -90 (-4.49 -6.575) -90 (-4.165 -6.9) (-4.165 -7.5) -90 \
+      (-4.49 -7.825) -90 (-4.815 -7.5) (-4.815 -6.9);
+Layer 31;
+Wire  0.15 (-4.815 -6.9) -90 (-4.49 -6.575) -90 (-4.165 -6.9) (-4.165 -7.5) -90 \
+      (-4.49 -7.825) -90 (-4.815 -7.5) (-4.815 -6.9);
+Layer 32;
+Wire  0.15 (-4.815 -6.9) -90 (-4.49 -6.575) -90 (-4.165 -6.9) (-4.165 -7.5) -90 \
+      (-4.49 -7.825) -90 (-4.815 -7.5) (-4.815 -6.9);
+Layer 29;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0.015  (-4.48 -6.45) -90 (-4.04 -6.91) (-4.04 -7.51) -90 (-4.49 -7.96) -90 \
+      (-4.94 -7.51) (-4.94 -6.91) -90 (-4.48 -6.45);
+Layer 30;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0.015  (-4.48 -6.45) -90 (-4.04 -6.91) (-4.04 -7.51) -90 (-4.49 -7.96) -90 \
+      (-4.94 -7.51) (-4.94 -6.91) -90 (-4.48 -6.45);
+Layer 46;
+Wire  0.001 (4.24 -6.9) -90 \
+      (4.49 -6.65) -90 (4.74 -6.9) (4.74 -7.5) -90 (4.49 -7.75) -90 \
+      (4.24 -7.5) (4.24 -6.9);
+Layer 1;
+Wire  0.15 (4.165 -6.9) -90 (4.49 -6.575) -90 (4.815 -6.9) (4.815 -7.5) -90 \
+      (4.49 -7.825) -90 (4.165 -7.5) (4.165 -6.9);
+Layer 16;
+Wire  0.15 (4.165 -6.9) -90 (4.49 -6.575) -90 (4.815 -6.9) (4.815 -7.5) -90 \
+      (4.49 -7.825) -90 (4.165 -7.5) (4.165 -6.9);
+Layer 31;
+Wire  0.15 (4.165 -6.9) -90 (4.49 -6.575) -90 (4.815 -6.9) (4.815 -7.5) -90 \
+      (4.49 -7.825) -90 (4.165 -7.5) (4.165 -6.9);
+Layer 32;
+Wire  0.15 (4.165 -6.9) -90 (4.49 -6.575) -90 (4.815 -6.9) (4.815 -7.5) -90 \
+      (4.49 -7.825) -90 (4.165 -7.5) (4.165 -6.9);
+Layer 29;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0.015  (4.5 -6.45) -90 (4.94 -6.91) (4.94 -7.51) -90 (4.49 -7.96) -90 \
+      (4.04 -7.51) (4.04 -6.91) -90 (4.5 -6.45);
+Layer 30;
+Change Spacing 1.27;
+Change Pour solid;
+Polygon 0.015  (4.5 -6.45) -90 (4.94 -6.91) (4.94 -7.51) -90 (4.49 -7.96) -90 \
+      (4.04 -7.51) (4.04 -6.91) -90 (4.5 -6.45);
+Layer 1;
+Smd 'A1' 0.3 0.7 -0 R0 (-2.75 0.66);
+Layer 1;
+Smd 'A2' 0.3 0.7 -0 R0 (-2.25 0.66);
+Layer 1;
+Smd 'A3' 0.3 0.7 -0 R0 (-1.75 0.66);
+Layer 1;
+Smd 'A4' 0.3 0.7 -0 R0 (-1.25 0.66);
+Layer 1;
+Smd 'A5' 0.3 0.7 -0 R0 (-0.75 0.66);
+Layer 1;
+Smd 'A6' 0.3 0.7 -0 R0 (-0.25 0.66);
+Layer 1;
+Smd 'A7' 0.3 0.7 -0 R0 (0.25 0.66);
+Layer 1;
+Smd 'A8' 0.3 0.7 -0 R0 (0.75 0.66);
+Layer 1;
+Smd 'A9' 0.3 0.7 -0 R0 (1.25 0.66);
+Layer 1;
+Smd 'A10' 0.3 0.7 -0 R0 (1.75 0.66);
+Layer 1;
+Smd 'A11' 0.3 0.7 -0 R0 (2.25 0.66);
+Layer 1;
+Smd 'A12' 0.3 0.7 -0 R0 (2.75 0.66);
+Layer 1;
+Smd 'B1' 0.3 0.7 -0 R0 (2.5 -1.04);
+Layer 1;
+Smd 'B2' 0.3 0.7 -0 R0 (2 -1.04);
+Layer 1;
+Smd 'B3' 0.3 0.7 -0 R0 (1.5 -1.04);
+Layer 1;
+Smd 'B4' 0.3 0.7 -0 R0 (1 -1.04);
+Layer 1;
+Smd 'B5' 0.3 0.7 -0 R0 (0.5 -1.04);
+Layer 1;
+Smd 'B6' 0.3 0.7 -0 R0 (0 -1.04);
+Layer 1;
+Smd 'B7' 0.3 0.7 -0 R0 (-0.5 -1.04);
+Layer 1;
+Smd 'B8' 0.3 0.7 -0 R0 (-1 -1.04);
+Layer 1;
+Smd 'B9' 0.3 0.7 -0 R0 (-1.5 -1.04);
+Layer 1;
+Smd 'B10' 0.3 0.7 -0 R0 (-2 -1.04);
+Layer 1;
+Smd 'B11' 0.3 0.7 -0 R0 (-2.5 -1.04);
+Layer 1;
+Smd 'B12' 0.3 0.7 -0 R0 (-3 -1.04);
+Hole 0.65 (-3.6 0);
+Hole 0.65 (3.6 0);
+Hole 0.5 (-4.13 -1.25);
+Hole 0.5 (4.13 -1.25);
+Hole 0.5 (-4.49 -7.2);
+Hole 0.5 (4.49 -7.2);
+
+Edit '12401610E4#2A.dev';
+Prefix 'J';
+Description 'Usb Type-c, Ra Rcpt, Pcb Mount,';
+Value off;
+Add 12401610E4#2A 'G$1' next 0 (0 0);
+Package 'AMPHENOL_12401610E4#2A' '';
+Technology '';
+Technology '';
+Attribute MF 'Amphenol' constant;
+Attribute MP '12401610E4#2A' constant;
+Attribute DIGI-KEY_PURCHASE_URL 'https://www.digikey.com/product-detail/en/amphenol-commercial-products/12401610E4-2A/12401610E4-2ACT-ND/5775520?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow' constant;
+Attribute DESCRIPTION 'USB TYPE-C, RA RCPT, PCB MOUNT,' constant;
+Attribute PACKAGE 'None' constant;
+Attribute DIGI-KEY_PART_NUMBER '12401610E4#2ACT-ND' constant;
+Connect  'G$1.CC1' 'A5'  'G$1.CC2' 'B5'  'G$1.D+' 'A6'  'G$1.D+@1' 'B6'  'G$1.D-' 'A7' \
+         'G$1.D-@1' 'B7'  'G$1.GND' 'A1'  'G$1.GND@1' 'A12'  'G$1.GND@2' 'B1'  'G$1.GND@3' 'B12'  'G$1.RX1+' 'B11' \
+         'G$1.RX1-' 'B10'  'G$1.RX2+' 'A11'  'G$1.RX2-' 'A10'  'G$1.SBU1' 'A8'  'G$1.SBU2' 'B8'  'G$1.TX1+' 'A2' \
+         'G$1.TX1-' 'A3'  'G$1.TX2+' 'B2'  'G$1.TX2-' 'B3'  'G$1.VBUS' 'A4'  'G$1.VBUS@1' 'A9'  'G$1.VBUS@2' 'B4' \
+         'G$1.VBUS@3' 'B9';
+Grid inch;
+Edit ;
