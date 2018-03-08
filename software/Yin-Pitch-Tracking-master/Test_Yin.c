@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
 		Yin_init(&yin, buffer_length, 0.05);
 		pitch = Yin_getPitch(&yin, audio);	
 		buffer_length++;
-		printf("Here");
+		
 	}
 	
 	printf("Reached here");
