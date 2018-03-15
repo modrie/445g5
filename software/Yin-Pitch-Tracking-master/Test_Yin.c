@@ -16,7 +16,7 @@
 
 
 int main(int argc, char** argv) {
-	int buffer_length = 100;
+	int buffer_length = 1000;
 	Yin yin;
 	float pitch;
 
