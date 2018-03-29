@@ -16061,6 +16061,10 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="43K"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="43K"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="43K"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10K"/>
+<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="0.1"/>
+<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1u"/>
 <part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1u"/>
 <part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="0.1u"/>
@@ -16357,6 +16361,10 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <instance part="R4" gate="G$1" x="-2.54" y="-7.62" rot="R90"/>
 <instance part="R5" gate="G$1" x="10.16" y="-38.1" rot="R90"/>
 <instance part="R6" gate="G$1" x="-7.62" y="-38.1" rot="R90"/>
+<instance part="R7" gate="G$1" x="-30.48" y="-40.64" rot="R180"/>
+<instance part="R8" gate="G$1" x="30.48" y="-40.64" rot="R180"/>
+<instance part="R9" gate="G$1" x="-73.66" y="-27.94" rot="R270"/>
+<instance part="R28" gate="G$1" x="-71.12" y="-40.64" rot="R270"/>
 <instance part="C2" gate="G$1" x="-43.18" y="30.48"/>
 <instance part="C5" gate="G$1" x="-33.02" y="30.48"/>
 <instance part="C4" gate="G$1" x="40.64" y="20.32"/>
