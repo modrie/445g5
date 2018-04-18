@@ -1,0 +1,689 @@
+Archive member included because of file (symbol)
+
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
+                              ./emlib/em_usart.o (__aeabi_uldivmod)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(bpabi.o) (__divdi3)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(bpabi.o) (__udivdi3)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-exit.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (exit)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-init.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (__libc_init_array)
+/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-memset.o)
+                              /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+msTicks             0x4               ./src/main.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+ .data          0x0000000000000000        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .data          0x0000000000000000        0x0 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+ .bss           0x0000000000000000        0x0 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+ .text          0x0000000000000000        0x0 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .data          0x0000000000000000        0x0 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .bss           0x0000000000000000        0x0 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .text.SystemMaxCoreClockGet
+                0x0000000000000000        0x8 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .text.SystemHFXOClockSet
+                0x0000000000000000       0x70 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .text.SystemLFXOClockSet
+                0x0000000000000000       0x6c ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .text          0x0000000000000000        0x0 ./emlib/em_cmu.o
+ .data          0x0000000000000000        0x0 ./emlib/em_cmu.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_cmu.o
+ .text.CMU_UpdateWaitStates
+                0x0000000000000000       0x48 ./emlib/em_cmu.o
+ .text.CMU_AUXHFRCOBandGet
+                0x0000000000000000        0xc ./emlib/em_cmu.o
+ .text.CMU_AUXHFRCOBandSet
+                0x0000000000000000      0x104 ./emlib/em_cmu.o
+ .text.CMU_Calibrate
+                0x0000000000000000       0x58 ./emlib/em_cmu.o
+ .text.CMU_CalibrateConfig
+                0x0000000000000000       0x7c ./emlib/em_cmu.o
+ .text.CMU_CalibrateCountGet
+                0x0000000000000000       0x20 ./emlib/em_cmu.o
+ .text.CMU_ClockDivGet
+                0x0000000000000000       0x98 ./emlib/em_cmu.o
+ .text.CMU_ClockDivSet
+                0x0000000000000000      0x290 ./emlib/em_cmu.o
+ .text.CMU_ClockPrescGet
+                0x0000000000000000       0x94 ./emlib/em_cmu.o
+ .text.CMU_ClockPrescSet
+                0x0000000000000000      0x294 ./emlib/em_cmu.o
+ .text.CMU_ClockSelectGet
+                0x0000000000000000       0xc4 ./emlib/em_cmu.o
+ .text.CMU_FreezeEnable
+                0x0000000000000000       0x24 ./emlib/em_cmu.o
+ .text.CMU_HFRCOBandGet
+                0x0000000000000000        0xc ./emlib/em_cmu.o
+ .text.CMU_HFRCOBandSet
+                0x0000000000000000      0x254 ./emlib/em_cmu.o
+ .text.CMU_HFXOAutostartEnable
+                0x0000000000000000       0xb0 ./emlib/em_cmu.o
+ .text.CMU_HFXOInit
+                0x0000000000000000       0x90 ./emlib/em_cmu.o
+ .text.CMU_LCDClkFDIVGet
+                0x0000000000000000        0x4 ./emlib/em_cmu.o
+ .text.CMU_LCDClkFDIVSet
+                0x0000000000000000        0x4 ./emlib/em_cmu.o
+ .text.CMU_LFXOInit
+                0x0000000000000000       0x4c ./emlib/em_cmu.o
+ .text.CMU_OscillatorEnable
+                0x0000000000000000      0x184 ./emlib/em_cmu.o
+ .text.CMU_ClockSelectSet
+                0x0000000000000000      0x3e0 ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningGet
+                0x0000000000000000       0x40 ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningSet
+                0x0000000000000000       0xac ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningWait
+                0x0000000000000000       0x5c ./emlib/em_cmu.o
+ .text.CMU_OscillatorTuningOptimize
+                0x0000000000000000       0x74 ./emlib/em_cmu.o
+ .text.CMU_PCNTClockExternalGet
+                0x0000000000000000       0x18 ./emlib/em_cmu.o
+ .text.CMU_PCNTClockExternalSet
+                0x0000000000000000       0x10 ./emlib/em_cmu.o
+ .text          0x0000000000000000        0x0 ./emlib/em_gpio.o
+ .data          0x0000000000000000        0x0 ./emlib/em_gpio.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_gpio.o
+ .text.GPIO_DbgLocationSet
+                0x0000000000000000       0x18 ./emlib/em_gpio.o
+ .text.GPIO_DriveStrengthSet
+                0x0000000000000000       0x20 ./emlib/em_gpio.o
+ .text.GPIO_ExtIntConfig
+                0x0000000000000000       0xb0 ./emlib/em_gpio.o
+ .text.GPIO_PinModeGet
+                0x0000000000000000       0x30 ./emlib/em_gpio.o
+ .text.GPIO_EM4EnablePinWakeup
+                0x0000000000000000       0x48 ./emlib/em_gpio.o
+ .text          0x0000000000000000        0x0 ./emlib/em_system.o
+ .data          0x0000000000000000        0x0 ./emlib/em_system.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_system.o
+ .text.SYSTEM_GetCalibrationValue
+                0x0000000000000000       0x28 ./emlib/em_system.o
+ .text          0x0000000000000000        0x0 ./emlib/em_usart.o
+ .data          0x0000000000000000        0x0 ./emlib/em_usart.o
+ .bss           0x0000000000000000        0x0 ./emlib/em_usart.o
+ .text.USART_BaudrateAsyncSet
+                0x0000000000000000       0x68 ./emlib/em_usart.o
+ .text.USART_BaudrateCalc
+                0x0000000000000000       0x7c ./emlib/em_usart.o
+ .text.USART_BaudrateGet
+                0x0000000000000000       0x98 ./emlib/em_usart.o
+ .text.USART_BaudrateSyncSet
+                0x0000000000000000       0x24 ./emlib/em_usart.o
+ .text.USART_InitAsync
+                0x0000000000000000      0x108 ./emlib/em_usart.o
+ .text.USARTn_InitIrDA
+                0x0000000000000000      0x150 ./emlib/em_usart.o
+ .text.USART_InitI2s
+                0x0000000000000000      0x120 ./emlib/em_usart.o
+ .text.USART_InitPrsTrigger
+                0x0000000000000000       0x2c ./emlib/em_usart.o
+ .text.USART_Reset
+                0x0000000000000000       0x4c ./emlib/em_usart.o
+ .text.USART_Rx
+                0x0000000000000000        0xc ./emlib/em_usart.o
+ .text.USART_RxDouble
+                0x0000000000000000        0xc ./emlib/em_usart.o
+ .text.USART_RxDoubleExt
+                0x0000000000000000        0xc ./emlib/em_usart.o
+ .text.USART_RxExt
+                0x0000000000000000        0xc ./emlib/em_usart.o
+ .text.USART_SpiTransfer
+                0x0000000000000000       0x14 ./emlib/em_usart.o
+ .text.USART_TxDouble
+                0x0000000000000000        0xc ./emlib/em_usart.o
+ .text.USART_TxDoubleExt
+                0x0000000000000000        0xc ./emlib/em_usart.o
+ .text.USART_TxExt
+                0x0000000000000000        0xc ./emlib/em_usart.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .text.Delay    0x0000000000000000       0x14 ./src/main.o
+ .text.spi_illuminate
+                0x0000000000000000       0x64 ./src/main.o
+ .text.LEDs_latch
+                0x0000000000000000       0x18 ./src/main.o
+ .text          0x0000000000000000        0x0 ./src/retargetio.o
+ .data          0x0000000000000000        0x0 ./src/retargetio.o
+ .bss           0x0000000000000000        0x0 ./src/retargetio.o
+ .text._close   0x0000000000000000        0x4 ./src/retargetio.o
+ .text._fstat   0x0000000000000000        0xc ./src/retargetio.o
+ .text._getpid  0x0000000000000000        0x4 ./src/retargetio.o
+ .text._isatty  0x0000000000000000        0x4 ./src/retargetio.o
+ .text._kill    0x0000000000000000        0x8 ./src/retargetio.o
+ .text._lseek   0x0000000000000000        0x4 ./src/retargetio.o
+ .text._read    0x0000000000000000       0x30 ./src/retargetio.o
+ .text._sbrk    0x0000000000000000       0x1c ./src/retargetio.o
+ .text._write   0x0000000000000000       0x1c ./src/retargetio.o
+ .bss.heap_end.6912
+                0x0000000000000000        0x4 ./src/retargetio.o
+ .text          0x0000000000000000        0x0 ./src/retargetswo.o
+ .data          0x0000000000000000        0x0 ./src/retargetswo.o
+ .bss           0x0000000000000000        0x0 ./src/retargetswo.o
+ .text.RETARGET_WriteChar
+                0x0000000000000000       0x28 ./src/retargetswo.o
+ .text.RETARGET_ReadChar
+                0x0000000000000000        0x4 ./src/retargetswo.o
+ .text.RETARGET_SwoInit
+                0x0000000000000000        0x4 ./src/retargetswo.o
+ .debug_info    0x0000000000000000      0x41d ./src/retargetswo.o
+ .debug_abbrev  0x0000000000000000      0x197 ./src/retargetswo.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./src/retargetswo.o
+ .debug_ranges  0x0000000000000000       0x38 ./src/retargetswo.o
+ .debug_line    0x0000000000000000      0x315 ./src/retargetswo.o
+ .debug_str     0x0000000000000000      0x331 ./src/retargetswo.o
+ .comment       0x0000000000000000       0x71 ./src/retargetswo.o
+ .debug_frame   0x0000000000000000       0x40 ./src/retargetswo.o
+ .ARM.attributes
+                0x0000000000000000       0x37 ./src/retargetswo.o
+ .text          0x0000000000000000       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000000000       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x0000000000000000       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+ .debug_frame   0x0000000000000000       0x50 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(bpabi.o)
+ .text          0x0000000000000000        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000      0x29c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .ARM.extab     0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0000000000000000        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000000000       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_divdi3.o)
+ .text          0x0000000000000000      0x26c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x0000000000000000        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000000000       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+ .text          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+ .data          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+ .bss           0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000040000 xr
+RAM              0x0000000020000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+LOAD ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+LOAD ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+LOAD ./emlib/em_cmu.o
+LOAD ./emlib/em_gpio.o
+LOAD ./emlib/em_system.o
+LOAD ./emlib/em_usart.o
+LOAD ./src/main.o
+LOAD ./src/retargetio.o
+LOAD ./src/retargetswo.o
+START GROUP
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libnosys.a
+END GROUP
+START GROUP
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libg_nano.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/libgcc.a
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a
+END GROUP
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+
+.text           0x0000000000000000      0xafc
+ *(.vectors)
+ .vectors       0x0000000000000000       0xc8 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+                0x0000000000000000                __Vectors
+                0x00000000000000c8                __Vectors_End = .
+                0x00000000000000c8                __Vectors_Size = (__Vectors_End - __Vectors)
+                0x00000000000000c8                __end__ = .
+ *(.text*)
+ .text          0x00000000000000c8       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .text          0x0000000000000124       0x74 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+                0x0000000000000124                _mainCRTStartup
+                0x0000000000000124                _start
+ .text          0x0000000000000198       0x30 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+                0x0000000000000198                Reset_Handler
+                0x00000000000001c4                USART0_TX_IRQHandler
+                0x00000000000001c4                I2C0_IRQHandler
+                0x00000000000001c4                HardFault_Handler
+                0x00000000000001c4                USART1_RX_IRQHandler
+                0x00000000000001c4                PendSV_Handler
+                0x00000000000001c4                NMI_Handler
+                0x00000000000001c4                WDOG0_IRQHandler
+                0x00000000000001c4                USART1_TX_IRQHandler
+                0x00000000000001c4                MSC_IRQHandler
+                0x00000000000001c4                ADC0_IRQHandler
+                0x00000000000001c4                UsageFault_Handler
+                0x00000000000001c4                LEUART0_IRQHandler
+                0x00000000000001c4                FPUEH_IRQHandler
+                0x00000000000001c4                GPIO_EVEN_IRQHandler
+                0x00000000000001c4                LDMA_IRQHandler
+                0x00000000000001c4                TIMER0_IRQHandler
+                0x00000000000001c4                LETIMER0_IRQHandler
+                0x00000000000001c4                TIMER1_IRQHandler
+                0x00000000000001c4                Default_Handler
+                0x00000000000001c4                EMU_IRQHandler
+                0x00000000000001c4                CRYOTIMER_IRQHandler
+                0x00000000000001c4                PCNT0_IRQHandler
+                0x00000000000001c4                ACMP0_IRQHandler
+                0x00000000000001c4                USART0_RX_IRQHandler
+                0x00000000000001c4                MemManage_Handler
+                0x00000000000001c4                SVC_Handler
+                0x00000000000001c4                RTCC_IRQHandler
+                0x00000000000001c4                CRYPTO_IRQHandler
+                0x00000000000001c4                CMU_IRQHandler
+                0x00000000000001c4                GPIO_ODD_IRQHandler
+                0x00000000000001c4                BusFault_Handler
+                0x00000000000001c4                DebugMon_Handler
+                0x00000000000001c4                IDAC0_IRQHandler
+ .text.SystemCoreClockGet
+                0x00000000000001c8       0x64 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x00000000000001c8                SystemCoreClockGet
+ .text.SystemHFClockGet
+                0x000000000000022c       0x50 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x000000000000022c                SystemHFClockGet
+ .text.SystemHFXOClockGet
+                0x000000000000027c        0xc ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x000000000000027c                SystemHFXOClockGet
+ .text.SystemInit
+                0x0000000000000288       0x14 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x0000000000000288                SystemInit
+ .text.SystemLFRCOClockGet
+                0x000000000000029c        0x8 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x000000000000029c                SystemLFRCOClockGet
+ .text.SystemULFRCOClockGet
+                0x00000000000002a4        0x8 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x00000000000002a4                SystemULFRCOClockGet
+ .text.SystemLFXOClockGet
+                0x00000000000002ac        0xc ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x00000000000002ac                SystemLFXOClockGet
+ .text.lfClkGet
+                0x00000000000002b8      0x158 ./emlib/em_cmu.o
+ .text.CMU_ClockEnable
+                0x0000000000000410       0x8c ./emlib/em_cmu.o
+                0x0000000000000410                CMU_ClockEnable
+ .text.CMU_ClockFreqGet
+                0x000000000000049c      0x154 ./emlib/em_cmu.o
+                0x000000000000049c                CMU_ClockFreqGet
+ .text.GPIO_PinModeSet
+                0x00000000000005f0       0x84 ./emlib/em_gpio.o
+                0x00000000000005f0                GPIO_PinModeSet
+ .text.SYSTEM_ChipRevisionGet
+                0x0000000000000674       0x34 ./emlib/em_system.o
+                0x0000000000000674                SYSTEM_ChipRevisionGet
+ .text.USART_Enable
+                0x00000000000006a8       0x10 ./emlib/em_usart.o
+                0x00000000000006a8                USART_Enable
+ .text.USART_InitSync
+                0x00000000000006b8       0xd8 ./emlib/em_usart.o
+                0x00000000000006b8                USART_InitSync
+ .text.USART_Tx
+                0x0000000000000790        0xc ./emlib/em_usart.o
+                0x0000000000000790                USART_Tx
+ .text.SysTick_Handler
+                0x000000000000079c       0x10 ./src/main.o
+                0x000000000000079c                SysTick_Handler
+ .text.initUSART1
+                0x00000000000007ac       0xbc ./src/main.o
+                0x00000000000007ac                initUSART1
+ .text.light_LEDs
+                0x0000000000000868       0x9c ./src/main.o
+                0x0000000000000868                light_LEDs
+ .text.startup.main
+                0x0000000000000904      0x108 ./src/main.o
+                0x0000000000000904                main
+ .text._exit    0x0000000000000a0c        0x4 ./src/retargetio.o
+                0x0000000000000a0c                _exit
+ .text.exit     0x0000000000000a10       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-exit.o)
+                0x0000000000000a10                exit
+ .text.__libc_init_array
+                0x0000000000000a38       0x4c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-init.o)
+                0x0000000000000a38                __libc_init_array
+ .text.memset   0x0000000000000a84       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-memset.o)
+                0x0000000000000a84                memset
+ *(.init)
+ .init          0x0000000000000a94        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+                0x0000000000000a94                _init
+ .init          0x0000000000000a98        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+ *(.fini)
+ .fini          0x0000000000000aa0        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+                0x0000000000000aa0                _fini
+ .fini          0x0000000000000aa4        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.CSWTCH.45
+                0x0000000000000aac        0x3 ./emlib/em_cmu.o
+ *fill*         0x0000000000000aaf        0x1 
+ .rodata.CSWTCH.46
+                0x0000000000000ab0        0x4 ./emlib/em_cmu.o
+ .rodata.CSWTCH.47
+                0x0000000000000ab4        0x4 ./emlib/em_cmu.o
+ .rodata.CSWTCH.48
+                0x0000000000000ab8        0x4 ./emlib/em_cmu.o
+ .rodata        0x0000000000000abc       0x30 ./src/main.o
+ .rodata.two_bits_to_SPI
+                0x0000000000000aec        0x4 ./src/main.o
+                0x0000000000000aec                two_bits_to_SPI
+ .rodata.str1.1
+                0x0000000000000af0        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+ *fill*         0x0000000000000af2        0x2 
+ .rodata._global_impure_ptr
+                0x0000000000000af4        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+                0x0000000000000af4                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x0000000000000af8        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .eh_frame      0x0000000000000af8        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+
+.glue_7         0x0000000000000afc        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000000afc        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000afc        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000000afc        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000000afc        0x0
+ .iplt          0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000000afc                __exidx_start = .
+
+.ARM.exidx      0x0000000000000afc        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000000000afc        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+                0x0000000000000b04                __exidx_end = .
+                0x0000000000000b04                __etext = .
+
+.rel.dyn        0x0000000000000b04        0x0
+ .rel.iplt      0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+
+.data           0x0000000020000000       0x80 load address 0x0000000000000b04
+                0x0000000020000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.SystemLFXOClock
+                0x0000000020000000        0x4 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .data.SystemHFXOClock
+                0x0000000020000004        0x4 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .data.SystemCoreClock
+                0x0000000020000008        0x4 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x0000000020000008                SystemCoreClock
+ .data.SystemHfrcoFreq
+                0x000000002000000c        0x4 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                0x000000002000000c                SystemHfrcoFreq
+ .data.auxHfrcoFreq
+                0x0000000020000010        0x4 ./emlib/em_cmu.o
+ .data.impure_data
+                0x0000000020000014       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+                0x0000000020000074                . = ALIGN (0x4)
+ *(.ram)
+                0x0000000020000074                . = ALIGN (0x4)
+                0x0000000020000074                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000020000074                PROVIDE (__preinit_array_end, .)
+                0x0000000020000074                . = ALIGN (0x4)
+                0x0000000020000074                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000020000074        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+                0x0000000020000078                PROVIDE (__init_array_end, .)
+                0x0000000020000078                . = ALIGN (0x4)
+                0x0000000020000078                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x0000000020000078        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+                0x000000002000007c                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+ .jcr           0x000000002000007c        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .jcr           0x000000002000007c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+                0x0000000020000080                . = ALIGN (0x4)
+                0x0000000020000080                __data_end__ = .
+
+.igot.plt       0x0000000020000080        0x0 load address 0x0000000000000b84
+ .igot.plt      0x0000000000000000        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+
+.bss            0x0000000020000080       0x20 load address 0x0000000000000b84
+                0x0000000020000080                . = ALIGN (0x4)
+                0x0000000020000080                __bss_start__ = .
+ *(.bss*)
+ .bss           0x0000000020000080       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ *(COMMON)
+ COMMON         0x000000002000009c        0x4 ./src/main.o
+                0x000000002000009c                msTicks
+                0x00000000200000a0                . = ALIGN (0x4)
+                0x00000000200000a0                __bss_end__ = .
+
+.heap           0x00000000200000a0      0xc00
+                0x00000000200000a0                __HeapBase = .
+                0x00000000200000a0                __end__ = .
+                0x00000000200000a0                end = __end__
+                0x00000000200000a0                _end = __end__
+ *(.heap*)
+ .heap          0x00000000200000a0      0xc00 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+                0x0000000020000ca0                __HeapLimit = .
+
+.stack_dummy    0x00000000200000a0      0x400
+ *(.stack*)
+ .stack         0x00000000200000a0      0x400 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+                0x0000000020008000                __StackTop = (ORIGIN (RAM) + 0x8000)
+                0x0000000020007c00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000020008000                PROVIDE (__stack, __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x0000000000000001                ASSERT ((0x40000 >= (__etext + SIZEOF (.data))), FLASH memory overflowed !)
+OUTPUT(SPI.axf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x2e
+ .ARM.attributes
+                0x0000000000000000       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .ARM.attributes
+                0x0000000000000054       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.attributes
+                0x0000000000000074       0x1f ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+ .ARM.attributes
+                0x0000000000000093       0x37 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .ARM.attributes
+                0x00000000000000ca       0x37 ./emlib/em_cmu.o
+ .ARM.attributes
+                0x0000000000000101       0x37 ./emlib/em_gpio.o
+ .ARM.attributes
+                0x0000000000000138       0x37 ./emlib/em_system.o
+ .ARM.attributes
+                0x000000000000016f       0x37 ./emlib/em_usart.o
+ .ARM.attributes
+                0x00000000000001a6       0x37 ./src/main.o
+ .ARM.attributes
+                0x00000000000001dd       0x37 ./src/retargetio.o
+ .ARM.attributes
+                0x0000000000000214       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000246       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000278       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000002aa       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000002dc       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+ .ARM.attributes
+                0x000000000000030e       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+
+.comment        0x0000000000000000       0x70
+ .comment       0x0000000000000000       0x70 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 ./emlib/em_cmu.o
+ .comment       0x0000000000000000       0x71 ./emlib/em_gpio.o
+ .comment       0x0000000000000000       0x71 ./emlib/em_system.o
+ .comment       0x0000000000000000       0x71 ./emlib/em_usart.o
+ .comment       0x0000000000000000       0x71 ./src/main.o
+ .comment       0x0000000000000000       0x71 ./src/retargetio.o
+
+.debug_line     0x0000000000000000     0x2e9c
+ .debug_line    0x0000000000000000       0xe9 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+ .debug_line    0x00000000000000e9      0x43c ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .debug_line    0x0000000000000525     0x11d9 ./emlib/em_cmu.o
+ .debug_line    0x00000000000016fe      0x4a6 ./emlib/em_gpio.o
+ .debug_line    0x0000000000001ba4      0x379 ./emlib/em_system.o
+ .debug_line    0x0000000000001f1d      0x758 ./emlib/em_usart.o
+ .debug_line    0x0000000000002675      0x50a ./src/main.o
+ .debug_line    0x0000000000002b7f      0x31d ./src/retargetio.o
+
+.debug_info     0x0000000000000000     0x8e04
+ .debug_info    0x0000000000000000      0x10f ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+ .debug_info    0x000000000000010f      0x944 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .debug_info    0x0000000000000a53     0x3da4 ./emlib/em_cmu.o
+ .debug_info    0x00000000000047f7      0xe76 ./emlib/em_gpio.o
+ .debug_info    0x000000000000566d      0x273 ./emlib/em_system.o
+ .debug_info    0x00000000000058e0     0x1380 ./emlib/em_usart.o
+ .debug_info    0x0000000000006c60     0x1ca9 ./src/main.o
+ .debug_info    0x0000000000008909      0x4fb ./src/retargetio.o
+
+.debug_abbrev   0x0000000000000000     0x124d
+ .debug_abbrev  0x0000000000000000       0x14 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+ .debug_abbrev  0x0000000000000014      0x1d8 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .debug_abbrev  0x00000000000001ec      0x421 ./emlib/em_cmu.o
+ .debug_abbrev  0x000000000000060d      0x2d8 ./emlib/em_gpio.o
+ .debug_abbrev  0x00000000000008e5      0x116 ./emlib/em_system.o
+ .debug_abbrev  0x00000000000009fb      0x30d ./emlib/em_usart.o
+ .debug_abbrev  0x0000000000000d08      0x396 ./src/main.o
+ .debug_abbrev  0x000000000000109e      0x1af ./src/retargetio.o
+
+.debug_aranges  0x0000000000000000      0x370
+ .debug_aranges
+                0x0000000000000000       0x20 ./CMSIS/EFM32PG1B/startup_efm32pg1b.o
+ .debug_aranges
+                0x0000000000000020       0x68 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .debug_aranges
+                0x0000000000000088      0x108 ./emlib/em_cmu.o
+ .debug_aranges
+                0x0000000000000190       0x48 ./emlib/em_gpio.o
+ .debug_aranges
+                0x00000000000001d8       0x28 ./emlib/em_system.o
+ .debug_aranges
+                0x0000000000000200       0xb8 ./emlib/em_usart.o
+ .debug_aranges
+                0x00000000000002b8       0x50 ./src/main.o
+ .debug_aranges
+                0x0000000000000308       0x68 ./src/retargetio.o
+
+.debug_loc      0x0000000000000000     0x5ebf
+ .debug_loc     0x0000000000000000      0x1f1 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .debug_loc     0x00000000000001f1     0x43fa ./emlib/em_cmu.o
+ .debug_loc     0x00000000000045eb      0x663 ./emlib/em_gpio.o
+ .debug_loc     0x0000000000004c4e       0x9c ./emlib/em_system.o
+ .debug_loc     0x0000000000004cea      0xba9 ./emlib/em_usart.o
+ .debug_loc     0x0000000000005893      0x3a4 ./src/main.o
+ .debug_loc     0x0000000000005c37      0x288 ./src/retargetio.o
+
+.debug_ranges   0x0000000000000000     0x1248
+ .debug_ranges  0x0000000000000000       0xf8 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .debug_ranges  0x00000000000000f8      0xc20 ./emlib/em_cmu.o
+ .debug_ranges  0x0000000000000d18      0x1a8 ./emlib/em_gpio.o
+ .debug_ranges  0x0000000000000ec0       0x18 ./emlib/em_system.o
+ .debug_ranges  0x0000000000000ed8      0x240 ./emlib/em_usart.o
+ .debug_ranges  0x0000000000001118       0xd8 ./src/main.o
+ .debug_ranges  0x00000000000011f0       0x58 ./src/retargetio.o
+
+.debug_str      0x0000000000000000     0x2a82
+ .debug_str     0x0000000000000000      0x5d6 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+                                        0x648 (size before relaxing)
+ .debug_str     0x00000000000005d6      0xeea ./emlib/em_cmu.o
+                                       0x144f (size before relaxing)
+ .debug_str     0x00000000000014c0      0x54f ./emlib/em_gpio.o
+                                        0x815 (size before relaxing)
+ .debug_str     0x0000000000001a0f      0x14d ./emlib/em_system.o
+                                        0x2fc (size before relaxing)
+ .debug_str     0x0000000000001b5c      0xa4a ./emlib/em_usart.o
+                                        0xe8f (size before relaxing)
+ .debug_str     0x00000000000025a6      0x2ea ./src/main.o
+                                       0x1255 (size before relaxing)
+ .debug_str     0x0000000000002890      0x1f2 ./src/retargetio.o
+                                        0x3ee (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x878
+ .debug_frame   0x0000000000000000       0xb0 ./CMSIS/EFM32PG1B/system_efm32pg1b.o
+ .debug_frame   0x00000000000000b0      0x310 ./emlib/em_cmu.o
+ .debug_frame   0x00000000000003c0       0xa0 ./emlib/em_gpio.o
+ .debug_frame   0x0000000000000460       0x30 ./emlib/em_system.o
+ .debug_frame   0x0000000000000490      0x1dc ./emlib/em_usart.o
+ .debug_frame   0x000000000000066c       0xd0 ./src/main.o
+ .debug_frame   0x000000000000073c       0xc8 ./src/retargetio.o
+ .debug_frame   0x0000000000000804       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x000000000000082c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000858       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libc_nano.a(lib_a-memset.o)
