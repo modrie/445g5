@@ -1,5 +1,5 @@
 #include "Polyphonic.h"
-
+#include <math.h>
 void print_float_array(float* p, int len_p){
 
 	for(int i = 0 ; i < len_p ; i++){
@@ -117,26 +117,6 @@ float sum_vec(float* vec, int16_t len){
 	return sum;
 }
 
-// Returns a portion of a vector indicated by startIdx and endIdx
-
-float* splice_vec (float* vec, int16_t startIdx, int16_t endIdx){
-	
-	int16_t len = endIdx - startIdx;
-	printf("length %d\n", len);
-
-	float* spliced = (float*)malloc(sizeof(float)*len);
-	
-	
-	// copy contents into spliced
-	for (int16_t i = 0; i < len ; i++){
-		printf("i %d\n", i);
-		// printf("i + startIdx %d\n", i + startIdx);
-		spliced[i] = vec[i + startIdx];
-	}
-	printf("Finished splice\n");
-
-	return spliced;
-}
 
 // Return frequency bin which f is closest to 
 int16_t find_closest_index(float f){
@@ -385,7 +365,7 @@ void polyphonic_deinit(Polyphonic* p){
 	free(p -> binFreqs);
 	p -> binFreqs = NULL;
 
-	for (int i = 0 ; i < p -> numBands ; i ++){
+	for (int i = 0 ; i < p -> numBands; i ++){
 		free(p -> Hb[i]);
 		p -> Hb[i] = NULL;
 	}
@@ -407,6 +387,10 @@ void polyphonic_deinit(Polyphonic* p){
 	}
 	free(p -> f0CandsFreqBins);
 	p -> f0CandsFreqBins = NULL;
+   /* for (int i = 0 ; i < NUM_F0_CANDS ; i++){
+        free( p -> f0CandsHarmonicNumBins[i]);
+        p -> f0CandsHarmonicNumBins = NULL;
+    }*/
 	free(p -> f0CandsHarmonicNumBins);
 	p -> f0CandsHarmonicNumBins = NULL;
 	free(p -> f0CandsNumHarmonics);
@@ -482,7 +466,7 @@ float* time_to_freq(int16_t* signalIn, int16_t numBands, float**Hb, float*cb){ /
 	float*fftSignal = BFreq;
 
 	// fftSignal[0] = fftSignal[0]/2; # UNCOMMENT LATER 
-
+    free(hannWindowed);
 	float* whitened = (float*) malloc(sizeof(float)*FFT_LEN);
 	whiten(fftSignal, numBands, Hb, cb, whitened);
 
@@ -611,8 +595,8 @@ int16_t pitch_detection(Polyphonic* p, int16_t* signalIn, float* F0s){
 		salience = get_salience(whitened, p -> f0Cands, p -> f0CandsFreqBins, p -> f0CandsNumHarmonics, p -> f0CandsHarmonicNumBins, p -> alpha, p -> beta);
 		
 		// f0 candidate is the one largest salience 
-		f0Index = argmax(salience, FFT_LEN);
-
+	//	f0Index = argmax(salience, FFT_LEN);
+f0Index = argmax(salience, NUM_F0_CANDS);
 		// only select if greater than threshold
 		if (salience[f0Index] > MIN_SALIENCE){
 			break;
@@ -634,7 +618,7 @@ int16_t pitch_detection(Polyphonic* p, int16_t* signalIn, float* F0s){
 	}
 
 	free(whitened);
-
+    free(salience);
 	return numDetected - 1;
 }
 
