@@ -8,12 +8,13 @@
 #include <stdlib.h>
 
 #include <math.h>
+#import "testB3.h"
 
 #define SAMPLING_RATE 16000
 #define FFT_LEN       512
 #define NUM_F0_CANDS  60
 #define MAX_NOTES	  6
-#define MIN_SALIENCE  600
+#define MIN_SALIENCE  400
 
 // Polyphonic object 
 typedef struct _Polyphonic {
@@ -54,7 +55,7 @@ float* get_f0_cands(void);
 
 // Performs spectral whitening by removing timbral characteristics from signal
 // Data_in is frequency domain data
-void whiten(int16_t* dataIn, int16_t numBands, float**Hb, float*cb, float* whitened);
+void whiten(float* dataIn, int16_t numBands, float**Hb, float*cb, float* whitened);
 
 // Computes salience for each f0 candidate 
 float* get_salience(float* whitened, float* f0Cands, int16_t*** f0CandsFreqBins, int16_t* f0CandsNumHarmonics, int16_t** f0CandsHarmonicNumBins, float alpha, float beta);

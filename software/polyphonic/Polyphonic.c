@@ -67,13 +67,40 @@ void linspace(float* vec, float startVal, float endVal, int16_t steps, uint16_t 
 
 // Returns the max value in a vector of given length
 float max(float* vec, int16_t len){
+
 	float maxVal = vec[0]; // initialize to first value in array
-	for (int i = 1; i < len ; i++ ){
-		if (vec[i] > maxVal){
-			maxVal = vec[i];
+	if (len > 1){
+		for (int i = 1; i < len ; i++ ){
+			if (vec[i] > maxVal){
+				maxVal = vec[i];
+			}
 		}
 	}
 	return maxVal;
+}
+
+
+// find max value at indices of a vector beteen startIdx and endIdx.
+// endIdx is NOT inclusive 
+// max [vec[startIdx endIdx) ) 
+float maxVec(float* vec, int16_t startIdx, int16_t endIdx){
+	
+	float maxVal = vec[startIdx];
+	// if (startIdx == 4){
+
+	// 	printf("IN here?\n");
+	// 	for(int i =0 ; i < FFT_LEN; i++){
+	// 		printf("vec %f\n", vec[i]);
+	// 	}
+	// 	printf("out here?\n");
+	// }
+	for (int idx = startIdx; idx < endIdx ; idx++){
+		if (vec[idx] > maxVal){
+			maxVal = vec[idx];
+		}
+	}
+	return maxVal;
+
 }
 
 // Returns max value's index 
@@ -97,16 +124,23 @@ float sum_vec(float* vec, int16_t len){
 }
 
 // Returns a portion of a vector indicated by startIdx and endIdx
+
 float* splice_vec (float* vec, int16_t startIdx, int16_t endIdx){
 	
 	int16_t len = endIdx - startIdx;
-	float* spliced = (float*) malloc(sizeof(float)*len);
+	printf("length %d\n", len);
 
+	float* spliced = (float*)malloc(sizeof(float)*len);
+	
+	
 	// copy contents into spliced
-	for (int i = 0; i < len ; i++){
-		printf("%d\n", i + startIdx);
+	for (int16_t i = 0; i < len ; i++){
+		printf("i %d\n", i);
+		// printf("i + startIdx %d\n", i + startIdx);
 		spliced[i] = vec[i + startIdx];
 	}
+	printf("Finished splice\n");
+
 	return spliced;
 }
 
@@ -116,6 +150,26 @@ int16_t find_closest_index(float f){
 	return bin;
 }
 
+// applies zero pad with given padLength
+// Then applies hanning window up to padLength
+float* zeroPadAndHanning(int16_t* signalIn, int16_t lenSignal, int16_t padLen){
+
+	float w;
+	int totalLen = lenSignal + padLen;
+	float* h = (float*) malloc(sizeof(float)*(totalLen));
+
+	// apply hanning
+	for ( int i = 0 ; i < lenSignal ; i++){
+		w = 0.5 - 0.5*cos((2*M_PI*i)/(lenSignal - 1));
+		h[i] = w * signalIn[i];
+	}
+
+	// zero pad 
+	for (int i = lenSignal ; i < totalLen ; i ++) {
+		h[i] = 0.0;
+	}
+	return h;
+}
 
 // Create triangular power filters given center bin frequencies and FFT bin frequencies
 // @cb - center bin frequencies to create triangular filters
@@ -268,7 +322,7 @@ int16_t*** get_candidate_freq_bins(float halfBinWidth, int16_t numHarmonics, flo
 				}
 				lowFreqBin = find_closest_index(lowFreq);
 				highFreqBin = find_closest_index(highFreq);
-				printf("highFreqBin %d\n", highFreqBin);
+				// printf("highFreqBin %d\n", highFreqBin);
 				// Consider changing to ending looping through harmonics 
 				if (highFreqBin > FFT_LEN - 1){
 					highFreqBin = FFT_LEN -1;
@@ -374,7 +428,7 @@ void polyphonic_deinit(Polyphonic* p){
 // @cb       - center frequencies of triangular filters
 // @whitened - computed whitened signal, computed inside function
 
-void whiten(int16_t* dataIn, int16_t numBands, float**Hb, float*cb, float* whitened){
+void whiten(float* dataIn, int16_t numBands, float**Hb, float*cb, float* whitened){
 	
 	// calculate std dev and bandwise compression coefficients for each center band frequency
 	float stdb[numBands];
@@ -424,69 +478,86 @@ void whiten(int16_t* dataIn, int16_t numBands, float**Hb, float*cb, float* white
 
 
 // // Return frequency data of given time signal
-// float* time_to_freq(int16_t* signalIn, int16_t numBands, float**Hb, float*cb){ // CHECK ARG TYPE
-// 	// window and apply trailing zeros to help with interpolation
-// 	float* hannWindowed = hanning(signalIn, FFT_LEN);
-// 	// OR there are already trailing zeros in signalIn 
+float* time_to_freq(int16_t* signalIn, int16_t numBands, float**Hb, float*cb){ // CHECK ARG TYPE
+	// window and apply trailing zeros to help with interpolation
+	float* hannWindowed = zeroPadAndHanning(signalIn, FFT_LEN, FFT_LEN);
+	printf("HI\n");
 
-// 	float* fftSignal = mag_real_fft(hannWindowed);
-// 	fftSignal[0] = fftSignal[0]/2;
+	// print_float_array(hannWindowed, 2*FFT_LEN);
+	// float* fftSignal = mag_real_fft(hannWindowed);
+	float*fftSignal = BFreq;
 
-// 	float* whitened = (float*) malloc(sizeof(float)*FFT_LEN);
-// 	whiten(fftSignal, numBands, Hb, cb, whitened);
+	// fftSignal[0] = fftSignal[0]/2; # UNCOMMENT LATER 
 
-// 	// DOES THIS GET RETURNED CORRECTLY?
-// 	return whitened;
+	float* whitened = (float*) malloc(sizeof(float)*FFT_LEN);
+	whiten(fftSignal, numBands, Hb, cb, whitened);
 
-// }
+	return whitened;
+
+}
 
 
 // Computes salience for each f0 candidate 
 float* get_salience(float* whitened, float* f0Cands, int16_t*** f0CandsFreqBins, int16_t* f0CandsNumHarmonics, int16_t** f0CandsHarmonicNumBins, float alpha, float beta){
 	
-	float sum;  				 // running sum for salience calculation
+	float sumVal;  				 // running sum for salience calculation
 	float freq;					 // current f0 candidate
 	float maxAmp;				 // max amplitude in spliced whitened spectrum
 	float weightedAmplitude;	 // max amplitude after weighting
 
+	int16_t harmonicBinStartIdx, harmonicBinEndIdx, numBins;
+
+	float copy[FFT_LEN];
+	for (int i =0 ; i < FFT_LEN ; i++){
+		copy[i] = whitened[i];
+	}
 
 	// each f0 candidate has a salience value
 	float* salience = (float*)malloc(sizeof(NUM_F0_CANDS));
-	float* splicedWhitenedSpectrum;
-
-	int16_t harmonicBinStartIdx, harmonicBinEndIdx, numBins;
 
 	// iterate through f0s
 	for(int i = 0 ; i < NUM_F0_CANDS ; i++){
-		sum = 0; 
+		sumVal = 0.0;
 		freq = f0Cands[i];
+		salience[i] = 0.0;
 
+		// printf("i %d\n", i );
 		// iterate through each f0's harmonics 
 		for (int h = 0 ; h < f0CandsNumHarmonics[i] ; h++ ){
 
 			// get bin indices where this harmonic exists
+			
 			harmonicBinStartIdx = f0CandsFreqBins[i][h][0];
 			numBins = f0CandsHarmonicNumBins[i][h];
-			harmonicBinEndIdx = harmonicBinStartIdx + numBins;
-
-			// splice spectrum at the harmonic indices
-			splicedWhitenedSpectrum = splice_vec(whitened, harmonicBinStartIdx, harmonicBinEndIdx);
 			
-			// Find the maxmimum value in the harmonic's bins 
-			maxAmp = max(splicedWhitenedSpectrum, numBins);
-
+			// printf("harmonic bins %d\n", numBins);
+		
+			// print_int_array(f0CandsFreqBins[i][h], numBins);
+			harmonicBinEndIdx = harmonicBinStartIdx + numBins;
+			
+			// printf("start %d\n", harmonicBinStartIdx);
+			// printf("end %d\n", harmonicBinEndIdx);
+			// Find the maximum value in the harmonic's bins 
+			maxAmp = maxVec(copy, harmonicBinStartIdx, harmonicBinEndIdx);
+			
+			// printf("maxAmp %f", maxAmp);
 			// apply weighting and sum
 			weightedAmplitude= ((freq + alpha)/(h *freq + beta)) * maxAmp;
-			sum += weightedAmplitude;
-
-			// clear memory
-			free(splicedWhitenedSpectrum);
-			splicedWhitenedSpectrum = NULL;
+			sumVal += weightedAmplitude;
+	
 		}
 
 		// store salience value for f0[i]
-		salience[i] = sum;
+		
+		salience[i] = sumVal;
+		// printf("2\n");
+		// printf("sum %f\n", sumVal);
+		// printf("1\n");
+
 	}
+
+	print_float_array(whitened, FFT_LEN);
+	print_float_array(salience, NUM_F0_CANDS);
 
 	return salience;
 }
@@ -541,54 +612,68 @@ int16_t pitch_detection(Polyphonic* p, int16_t* signalIn, float* F0s){
 
 
 	// time -> frequency
-	// float* whitened = time_to_freq(signalIn, p -> numBands, p -> Hb, p -> cb);
-	float *whitened; 
+	float* whitened = time_to_freq(signalIn, p -> numBands, p -> Hb, p -> cb);
+	// print_float_array(whitened, FFT_LEN);
 
-	// iteratively detect notes
-	while (S[numDetected] >= sMax){
-		numDetected += 1;
-		salience = get_salience(whitened, p -> f0Cands, p -> f0CandsFreqBins, p -> f0CandsNumHarmonics, p -> f0CandsHarmonicNumBins, p -> alpha, p -> beta);
+	salience = get_salience(whitened, p -> f0Cands, p -> f0CandsFreqBins, p -> f0CandsNumHarmonics, p -> f0CandsHarmonicNumBins, p -> alpha, p -> beta);
+	printf("got here\n");
+	// print_float_array(salience, NUM_F0_CANDS);
+
+	// // iteratively detect notes
+	// while (S[numDetected] >= sMax){
+	// 	numDetected += 1;
+	// 	salience = get_salience(whitened, p -> f0Cands, p -> f0CandsFreqBins, p -> f0CandsNumHarmonics, p -> f0CandsHarmonicNumBins, p -> alpha, p -> beta);
 		
-		// f0 candidate is the one largest salience 
-		f0Index = argmax(salience, FFT_LEN);
+	// 	// f0 candidate is the one largest salience 
+	// 	f0Index = argmax(salience, FFT_LEN);
 
-		// only select if greater than threshold
-		if (salience[f0Index] > MIN_SALIENCE){
-			break;
-		}
+	// 	// only select if greater than threshold
+	// 	if (salience[f0Index] > MIN_SALIENCE){
+	// 		break;
+	// 	}
 
-		// frequency cancellation
-		cancel_pitch(whitened, detectedFreqs, p -> binFreqs, f0Index, p -> f0CandsFreqBins, p -> f0CandsNumHarmonics, p -> f0CandsHarmonicNumBins, p -> alpha, p -> beta);
+	// 	// frequency cancellation
+	// 	cancel_pitch(whitened, detectedFreqs, p -> binFreqs, f0Index, p -> f0CandsFreqBins, p -> f0CandsNumHarmonics, p -> f0CandsHarmonicNumBins, p -> alpha, p -> beta);
 		
-		// compute termination variable
-		sumDetectedFreqs = sum_vec(detectedFreqs, FFT_LEN);
-		S[numDetected] = sumDetectedFreqs / pow(numDetected, 0.7);
+	// 	// compute termination variable
+	// 	sumDetectedFreqs = sum_vec(detectedFreqs, FFT_LEN);
+	// 	S[numDetected] = sumDetectedFreqs / pow(numDetected, 0.7);
 
-		// update S 
-		if (S[numDetected] > sMax){
-			sMax = S[numDetected];
-			F0s[numDetected - 1] = p -> f0Cands[f0Index];
-		}
+	// 	// update S 
+	// 	if (S[numDetected] > sMax){
+	// 		sMax = S[numDetected];
+	// 		F0s[numDetected - 1] = p -> f0Cands[f0Index];
+	// 	}
 
-	}
+	// }
+
+	free(whitened);
+
 	return numDetected;
 }
 
 
 int main(){
-	
+
+
+	float F0s [MAX_NOTES] = {0,0,0,0,0,0};
 	Polyphonic p;
 
 	polyphonic_init(&p);
+	
 
-	int i = 20; 
-	for (int  j = 0; j < p.f0CandsNumHarmonics[i]; j++){
-		print_int_array(p.f0CandsFreqBins[i][j], p.f0CandsHarmonicNumBins[i][j]);
-	}
+	pitch_detection(&p, B, F0s);
 
 	polyphonic_deinit(&p);
-	float vec[10] = {321,2,6,25,6,3,2,5,2,6};
 
+	// int i = 20; 
+	// for (int  j = 0; j < p.f0CandsNumHarmonics[i]; j++){
+	// 	print_int_array(p.f0CandsFreqBins[i][j], p.f0CandsHarmonicNumBins[i][j]);
+	// }
+	
+	// float vec[10] = {321,400,6,25,6,50,50,5,2,6};
+	// float max = maxVec(vec, 0, 2);
+	// printf("%f\n", max);
 	// linspace(vec, 3, 10, 1, 5);
 	// print_float_array(v, 2);
 
